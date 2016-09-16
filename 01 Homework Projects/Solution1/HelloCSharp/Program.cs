@@ -4,7 +4,7 @@ class HelloCSharp
     {
         static void Main()
         {
-        Console.WriteLine("Hello, CSharp");
+        Console.WriteLine("Hello, C#Sharp");
         }
     }
 
