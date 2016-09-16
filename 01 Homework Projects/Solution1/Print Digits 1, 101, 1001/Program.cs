@@ -4,7 +4,7 @@
     {
         static void Main()
         {
-        System.Console.WriteLine("1\n101\n1001\n10001");
+        Console.WriteLine("1\n101\n1001\n10001");
         
         }
     }
