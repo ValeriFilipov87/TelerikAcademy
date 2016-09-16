@@ -1,10 +1,10 @@
 ﻿using System;
 
-class Program
+class HelloCSharp
     {
         static void Main()
         {
-        Console.WriteLine("Hello, C#");
+        Console.WriteLine("Hello, CSharp");
         }
     }
 
