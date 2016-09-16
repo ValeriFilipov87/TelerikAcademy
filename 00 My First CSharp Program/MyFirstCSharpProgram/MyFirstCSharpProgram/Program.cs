@@ -1,13 +1,10 @@
 ﻿using System;
 
-
-namespace MyFirstCSharpProgram
-{
-    class Program
+    class MyFirstCSharpProgram
     {
         static void Main()
         {
             Console.WriteLine("Hello, C#");
         }
     }
-}
+
