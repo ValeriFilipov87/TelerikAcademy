@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables MaxMin", "DeclareVariables\Variables MaxMin.csproj", "{9885F9FD-0F96-429E-95E1-F38A0350C633}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variables MaxMin", "Variables MaxMin\Variables MaxMin.csproj", "{9885F9FD-0F96-429E-95E1-F38A0350C633}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Declare Variables", "01Declare Variables\01 Declare Variables.csproj", "{0FA2507D-5296-43EA-BDFA-79E6BE8CB470}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Declare Variables", "01.Declare Variables\01 Declare Variables.csproj", "{0FA2507D-5296-43EA-BDFA-79E6BE8CB470}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
