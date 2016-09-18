@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Variable in Hexadecimal 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Unicode Character", "04 Unicode Character\04 Unicode Character.csproj", "{3B797517-31C8-43AA-AF31-A1D29F9A8073}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Boolean Variable", "05 Boolean Variable\05 Boolean Variable.csproj", "{390363DF-CDFB-4363-A818-1E6FF30E3AEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3B797517-31C8-43AA-AF31-A1D29F9A8073}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B797517-31C8-43AA-AF31-A1D29F9A8073}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B797517-31C8-43AA-AF31-A1D29F9A8073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{390363DF-CDFB-4363-A818-1E6FF30E3AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{390363DF-CDFB-4363-A818-1E6FF30E3AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{390363DF-CDFB-4363-A818-1E6FF30E3AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{390363DF-CDFB-4363-A818-1E6FF30E3AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
