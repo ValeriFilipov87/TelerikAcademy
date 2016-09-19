@@ -7,13 +7,21 @@ using System;
     {
         static void Main()
         {
-            int firstVariable = 5;
-            int secondVariable = 10;
-            int temporalVariable = firstVariable;
-            Console.WriteLine("before exchage: {0} and {1}", firstVariable, secondVariable);
-            firstVariable = secondVariable;
-            secondVariable = temporalVariable;
-            Console.WriteLine("after exchage: {0} and {1}", firstVariable, secondVariable);
+        /*int firstVariable = 5;
+        int secondVariable = 10;
+        int temporalVariable = firstVariable;
+        Console.WriteLine("before exchage: {0} and {1}", firstVariable, secondVariable);
+        firstVariable = secondVariable;
+        secondVariable = temporalVariable;
+        Console.WriteLine("after exchage: {0} and {1}", firstVariable, secondVariable); */
+
+        int a = 5;
+        int b = 10;
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        Console.WriteLine("{0},{1}",a, b);
         }
     }
 
+ 
