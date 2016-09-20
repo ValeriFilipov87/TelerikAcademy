@@ -8,9 +8,9 @@ class ComparingFloats
         {
             Double eps = 0.000000000001;
             Console.WriteLine("Write your first floating number");
-            float firstNumber = (float)Convert.ToDouble(Console.ReadLine());
+            double firstNumber = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Write your second floating number");
-            float secondNumber = (float)Convert.ToDouble(Console.ReadLine());
+            double secondNumber = Convert.ToDouble(Console.ReadLine());
             if (Math.Abs(firstNumber - secondNumber) < eps)
             {
                 Console.WriteLine("A > B");
