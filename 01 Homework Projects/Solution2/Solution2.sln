@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 Null Values Arithmetic",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 Comparing Floats", "13 Comparing Floats\13 Comparing Floats.csproj", "{E224CC42-A4F0-4750-BD25-60A708EB9F28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Print the ASCII Table", "14 Print the ASCII Table\14 Print the ASCII Table.csproj", "{2438D4B2-ECCA-40DF-B276-E68794DF266E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{E224CC42-A4F0-4750-BD25-60A708EB9F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E224CC42-A4F0-4750-BD25-60A708EB9F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E224CC42-A4F0-4750-BD25-60A708EB9F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2438D4B2-ECCA-40DF-B276-E68794DF266E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2438D4B2-ECCA-40DF-B276-E68794DF266E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2438D4B2-ECCA-40DF-B276-E68794DF266E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2438D4B2-ECCA-40DF-B276-E68794DF266E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
