@@ -20,6 +20,9 @@
             long minlong = long.MinValue;
             ulong maxulong = ulong.MaxValue;
             ulong minulong = ulong.MinValue;
+            UInt16 maxUint16 = UInt16.MaxValue;
+            UInt32 maxUint32 = UInt32.MaxValue;
+            UInt64 maxUint64 = UInt64.MaxValue;
 
             Console.WriteLine("byte max = {0}", maxbyte);
             Console.WriteLine("byte min = {0}", minbyte);
@@ -37,7 +40,9 @@
             Console.WriteLine("long min = {0}", minlong);
             Console.WriteLine("ulong max = {0}", maxulong);
             Console.WriteLine("ulong min = {0}", minulong);
-
+            Console.WriteLine("Uint16 max = {0}", maxUint16);
+            Console.WriteLine("Uint32 max = {0}", maxUint32);
+            Console.WriteLine("Uint64 max = {0}", maxUint64);
   
 
         }    
