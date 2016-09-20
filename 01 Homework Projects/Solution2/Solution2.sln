@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Employee Data", "10 Empl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Bank Account Data", "11 Bank Account Data\11 Bank Account Data.csproj", "{2E2E53A9-6DE5-4B8B-8ACE-9E97066A224A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 Null Values Arithmetic", "12 Null Values Arithmetic\12 Null Values Arithmetic.csproj", "{1812C5C1-F437-4810-9887-3D60D5646761}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{2E2E53A9-6DE5-4B8B-8ACE-9E97066A224A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E2E53A9-6DE5-4B8B-8ACE-9E97066A224A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E2E53A9-6DE5-4B8B-8ACE-9E97066A224A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1812C5C1-F437-4810-9887-3D60D5646761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1812C5C1-F437-4810-9887-3D60D5646761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1812C5C1-F437-4810-9887-3D60D5646761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1812C5C1-F437-4810-9887-3D60D5646761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
