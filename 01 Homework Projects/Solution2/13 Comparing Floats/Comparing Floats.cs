@@ -6,7 +6,7 @@ class ComparingFloats
 {
         static void Main()
         {
-            Double eps = 0.000000000001;
+            double eps = 0.000000000001;
             Console.WriteLine("Write your first floating number");
             double firstNumber = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Write your second floating number");
