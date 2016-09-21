@@ -16,7 +16,7 @@ class OddOrEvenIntegers
         }
         else
         {
-            Console.WriteLine("The dugut is odd");
+            Console.WriteLine("The digit is odd");
         }
     }
 }
