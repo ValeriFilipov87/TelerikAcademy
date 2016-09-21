@@ -8,8 +8,11 @@ class GravitationOnTheMoon
 {
     static void Main()
     {
-        Console.WriteLine("Please input a digit:");
-        double digit = double.Parse(Console.ReadLine());
+        Console.WriteLine("Please input weight:");
+        float earthWeigth = float.Parse(Console.ReadLine());
+        float coeficient = 0.17F;
+        float moonWeigth = earthWeigth * coeficient;
+        Console.WriteLine("The equivelent weigth on the Moon is: \n{0}", moonWeigth);
     }
 }
 
