@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Divide by 7 and 5", "03 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Rectangles", "04 Rectangles\04 Rectangles.csproj", "{565BA60B-C4CA-4F4B-AEE2-7E983734C7D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Third Digit is 7", "05 Third Digit is 7\05 Third Digit is 7.csproj", "{829A9490-96E8-48A5-ACB1-84E05E9AE2B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{565BA60B-C4CA-4F4B-AEE2-7E983734C7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{565BA60B-C4CA-4F4B-AEE2-7E983734C7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{565BA60B-C4CA-4F4B-AEE2-7E983734C7D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829A9490-96E8-48A5-ACB1-84E05E9AE2B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829A9490-96E8-48A5-ACB1-84E05E9AE2B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829A9490-96E8-48A5-ACB1-84E05E9AE2B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829A9490-96E8-48A5-ACB1-84E05E9AE2B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
