@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Four-Digit Number", "06 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Point in a Circle", "07 Point in a Circle\07 Point in a Circle.csproj", "{8E758F93-10CA-43E3-B628-64038CEDD1D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Prime Number Check", "08 Prime Number Check\08 Prime Number Check.csproj", "{324BA6B8-E013-485F-81F6-B327FD591C94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{8E758F93-10CA-43E3-B628-64038CEDD1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E758F93-10CA-43E3-B628-64038CEDD1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E758F93-10CA-43E3-B628-64038CEDD1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324BA6B8-E013-485F-81F6-B327FD591C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324BA6B8-E013-485F-81F6-B327FD591C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324BA6B8-E013-485F-81F6-B327FD591C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324BA6B8-E013-485F-81F6-B327FD591C94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
