@@ -35,7 +35,7 @@ class ExtractBitFromInteger
         int mask = 1 << newPosition;
         int nAndMask = checkDigit & mask;
         int bit = nAndMask >> newPosition;
-        Console.WriteLine(Convert.ToString(checkDigit, 2).PadLeft(16,'0'));
+        Console.WriteLine(Convert.ToString(checkDigit, 2).PadLeft(16, '0'));
         Console.WriteLine("The bit on position {0} is: {1}", newPosition, bit);
     }
 }
