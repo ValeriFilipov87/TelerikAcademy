@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Inside and Outside", "10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Bitwise Extract Bit 3", "11 Bitwise Extract Bit 3\11 Bitwise Extract Bit 3.csproj", "{F89B4648-FCCA-4516-9746-12295F83404C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 Extract Bit from Integer", "12 Extract Bit from Integer\12 Extract Bit from Integer.csproj", "{B133107E-2439-4AF7-8B67-BEF841E6D27D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{F89B4648-FCCA-4516-9746-12295F83404C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F89B4648-FCCA-4516-9746-12295F83404C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F89B4648-FCCA-4516-9746-12295F83404C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B133107E-2439-4AF7-8B67-BEF841E6D27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B133107E-2439-4AF7-8B67-BEF841E6D27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B133107E-2439-4AF7-8B67-BEF841E6D27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B133107E-2439-4AF7-8B67-BEF841E6D27D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
