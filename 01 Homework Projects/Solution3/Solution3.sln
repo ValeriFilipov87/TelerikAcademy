@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Third Digit is 7", "05 T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Four-Digit Number", "06 Four-Digit Number\06 Four-Digit Number.csproj", "{2CFA4C1E-8C98-4027-89DF-CCE899BD8466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Point in a Circle", "07 Point in a Circle\07 Point in a Circle.csproj", "{8E758F93-10CA-43E3-B628-64038CEDD1D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{2CFA4C1E-8C98-4027-89DF-CCE899BD8466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFA4C1E-8C98-4027-89DF-CCE899BD8466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFA4C1E-8C98-4027-89DF-CCE899BD8466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E758F93-10CA-43E3-B628-64038CEDD1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E758F93-10CA-43E3-B628-64038CEDD1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E758F93-10CA-43E3-B628-64038CEDD1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E758F93-10CA-43E3-B628-64038CEDD1D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
