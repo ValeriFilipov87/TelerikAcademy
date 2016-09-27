@@ -21,7 +21,7 @@ class BitsExchange
         }
 
         int n = Convert.ToInt32(digit);         // the input number number
-        Console.WriteLine("The input value is:{0}\nThe input value in duoble is:{1}", n, Convert.ToString(n, 2).PadLeft(32, '0'));
+        Console.WriteLine("The input value is:\n{0}\nThe input value in duoble is:\n{1}", n, Convert.ToString(n, 2).PadLeft(32, '0'));
 
         Console.WriteLine(n);
         Console.WriteLine(Convert.ToString(n, 2).PadLeft(32, '0'));
@@ -44,106 +44,79 @@ class BitsExchange
         bool checkSecondPair = forthBit != twFifthBit;
         bool checkThirdPair = fifthBit != twSixthBit;
 
-        int result;
+        int result = n;
 
         if (checkFirstPair)
         {
-            if (thirdBit == 1)
+            if (thirdBit == 1 && twForthBit == 0)
             {
                 mask = ~(1 << 3);
-                result = n & mask;
+                result = result & mask;
+                mask = 1 << 24;
+                result = result | mask;
             }
             else
             {
                 mask = 1 << 3;
-                result = n | mask;
-            }
-            Console.WriteLine("{0}", result);
-            Console.WriteLine(Convert.ToString(result, 2).PadLeft(32, '0'));
-
-            if (twForthBit == 1)
-            {
+                result = result | mask;
                 mask = ~(1 << 24);
                 result = result & mask;
             }
-            else
-            {
-                mask = 1 << 24;
-                result = result | mask;
-            }
-            Console.WriteLine("{0}", result);
+            Console.WriteLine("After changing 3rd and 24th bit:\n{0}", result);
             Console.WriteLine(Convert.ToString(result, 2).PadLeft(32, '0'));
         }
-        
+        else
+        {
+            Console.WriteLine("3rd and 24th bits are iqual");
+        }
+
         if (checkSecondPair)
         {
-            if (forthBit == 1)
+            if (forthBit == 1 && twFifthBit == 0)
             {
                 mask = ~(1 << 4);
                 result = result & mask;
+                mask = 1 << 25;
+                result = result | mask;
             }
             else
             {
                 mask = 1 << 4;
                 result = result | mask;
-            }
-            if (twFifthBit == 1)
-            {
                 mask = ~(1 << 25);
                 result = result & mask;
             }
-            else
-            {
-                mask = 1 << 25;
-                result = result | mask;
-            }
-            return;
+            Console.WriteLine("After changing 4th and 25th bit:\n{0}", result);
+            Console.WriteLine(Convert.ToString(result, 2).PadLeft(32, '0'));
         }
         else
+        {
+            Console.WriteLine("4th and 25th bits are iqual");
+        }
+
         if (checkThirdPair)
         {
-            if (fifthBit == 1)
+            if (fifthBit == 1 && twSixthBit == 0)
             {
                 mask = ~(1 << 5);
                 result = result & mask;
+                mask = 1 << 26;
+                result = result | mask;
             }
             else
             {
                 mask = 1 << 5;
                 result = result | mask;
-            }
-            if (twSixthBit == 1)
-            {
                 mask = ~(1 << 26);
                 result = result & mask;
             }
-            else
-            {
-                mask = 1 << 26;
-                result = result | mask;
-            }
-            return;
+            Console.WriteLine("After changing 5th and 26th bit:\n{0}", result);
+            Console.WriteLine(Convert.ToString(result, 2).PadLeft(32, '0'));
         }
-        Console.WriteLine("{0}",result);
-        Console.WriteLine(Convert.ToString(result, 2).PadLeft(32, '0'));
+        else
+        {
+            Console.WriteLine("4th and 26th bits are iqual");
+        }
     }
 }
 
-/*ChangeBit(int n, int v, int p)
-{
-    int value = v;
-    int place = p;
-    int mask;
-    int result = n;
-    if (value == 1)
-    {
-        mask = ~(1 << p);
-        result = n & mask;
-        return;
-    }
-    else
-    {
-        mask = 1 << p;
-        return result = n | mask;
-    }
-}*/
