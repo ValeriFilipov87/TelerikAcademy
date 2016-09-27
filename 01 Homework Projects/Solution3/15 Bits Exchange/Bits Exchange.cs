@@ -23,9 +23,6 @@ class BitsExchange
         int n = Convert.ToInt32(digit);         // the input number number
         Console.WriteLine("The input value is:\n{0}\nThe input value in duoble is:\n{1}", n, Convert.ToString(n, 2).PadLeft(32, '0'));
 
-        Console.WriteLine(n);
-        Console.WriteLine(Convert.ToString(n, 2).PadLeft(32, '0'));
-
         int mask;
         mask = 1 << 3;
         int thirdBit = (n & mask) >> 3;

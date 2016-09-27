@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Modify a Bit at Given Po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Bits Exchange", "15 Bits Exchange\15 Bits Exchange.csproj", "{256B8EDA-B769-44E8-AE9B-72A4DAC1CE1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 Bit Exchange (Advanced)", "16 Bit Exchange (Advanced)\16 Bit Exchange (Advanced).csproj", "{448B5804-F294-4337-A835-289C6398007B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{256B8EDA-B769-44E8-AE9B-72A4DAC1CE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{256B8EDA-B769-44E8-AE9B-72A4DAC1CE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{256B8EDA-B769-44E8-AE9B-72A4DAC1CE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448B5804-F294-4337-A835-289C6398007B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448B5804-F294-4337-A835-289C6398007B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448B5804-F294-4337-A835-289C6398007B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448B5804-F294-4337-A835-289C6398007B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
