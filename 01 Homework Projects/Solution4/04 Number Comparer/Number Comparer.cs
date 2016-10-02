@@ -9,7 +9,7 @@ class NumberComparer
     {
         Console.Write("Input first digit: ");
         double x = Double.Parse(Console.ReadLine());
-        Console.Write("Input second difit: ");
+        Console.Write("Input second digit: ");
         double y = Double.Parse(Console.ReadLine());
         double max = Math.Max(x, y);
         Console.WriteLine("The bigger digit is: {0}", max);

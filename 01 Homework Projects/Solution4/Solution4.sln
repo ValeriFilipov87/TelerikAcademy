@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Circle Perimeter and Are
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Number Comparer", "04 Number Comparer\04 Number Comparer.csproj", "{8C037584-1B7B-4366-872F-49F704B2D7EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Formatting Numbers", "05 Formatting Numbers\05 Formatting Numbers.csproj", "{AC8371EB-6639-44B5-BE76-081ECFABAAF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8C037584-1B7B-4366-872F-49F704B2D7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C037584-1B7B-4366-872F-49F704B2D7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C037584-1B7B-4366-872F-49F704B2D7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC8371EB-6639-44B5-BE76-081ECFABAAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC8371EB-6639-44B5-BE76-081ECFABAAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC8371EB-6639-44B5-BE76-081ECFABAAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC8371EB-6639-44B5-BE76-081ECFABAAF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
