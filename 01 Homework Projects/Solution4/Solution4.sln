@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Quadratic Equation", "06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Sum of 5 Numbers", "07 Sum of 5 Numbers\07 Sum of 5 Numbers.csproj", "{374480F0-83A6-41D5-9FBA-FD25AE7BD587}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Numbers from 1 to n", "08 Numbers from 1 to n\08 Numbers from 1 to n.csproj", "{70CB5014-179C-4108-96EA-FBE4CC7EC110}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{374480F0-83A6-41D5-9FBA-FD25AE7BD587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{374480F0-83A6-41D5-9FBA-FD25AE7BD587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{374480F0-83A6-41D5-9FBA-FD25AE7BD587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70CB5014-179C-4108-96EA-FBE4CC7EC110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70CB5014-179C-4108-96EA-FBE4CC7EC110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70CB5014-179C-4108-96EA-FBE4CC7EC110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70CB5014-179C-4108-96EA-FBE4CC7EC110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
