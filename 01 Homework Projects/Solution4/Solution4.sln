@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Fibonacci Numbers", "10 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Numbers from Given Number", "11 Numbers from Given Number\11 Numbers from Given Number.csproj", "{B27EDD8E-C49A-46B6-8633-716DCD29CD4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 Falling Rocks", "12 Falling Rocks\12 Falling Rocks.csproj", "{4A48FCAF-83B8-4D88-812B-E21103923DF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B27EDD8E-C49A-46B6-8633-716DCD29CD4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B27EDD8E-C49A-46B6-8633-716DCD29CD4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B27EDD8E-C49A-46B6-8633-716DCD29CD4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A48FCAF-83B8-4D88-812B-E21103923DF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A48FCAF-83B8-4D88-812B-E21103923DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A48FCAF-83B8-4D88-812B-E21103923DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A48FCAF-83B8-4D88-812B-E21103923DF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
