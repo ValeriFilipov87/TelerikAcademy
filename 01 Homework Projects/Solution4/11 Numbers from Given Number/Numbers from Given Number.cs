@@ -5,7 +5,7 @@ using System;
 
 class NumbersFromGivenNumber
 {
-    static int ReturnNumber()
+    static void ReturnNumber()
     {
         int number;
         bool isParsed = int.TryParse(Console.ReadLine(), out number);
