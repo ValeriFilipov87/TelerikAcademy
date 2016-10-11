@@ -29,7 +29,40 @@ class MultiplicationSign
 
         if (firstNumber == 0 || secondNumber == 0 || thirdNumber == 0)
         {
-            Console.Write("The result is: 0");
+            Console.WriteLine("The result is: 0");
+
+        }
+        if (firstNumber > 0 && secondNumber > 0 && thirdNumber > 0)
+        {
+            Console.WriteLine("The result is: +");
+        }
+        if (firstNumber > 0 && secondNumber > 0 && thirdNumber < 0)
+        {
+            Console.WriteLine("The result is: -");
+        }
+        if (firstNumber > 0 && secondNumber < 0 && thirdNumber > 0)
+        {
+            Console.WriteLine("The result is: -");
+        }
+        if (firstNumber > 0 && secondNumber < 0 && thirdNumber < 0)
+        {
+            Console.WriteLine("The result is: +");
+        }
+        if (firstNumber < 0 && secondNumber < 0 && thirdNumber < 0)
+        {
+            Console.WriteLine("The result is: -");
+        }
+        if (firstNumber < 0 && secondNumber < 0 && thirdNumber > 0)
+        {
+            Console.WriteLine("The result is: +");
+        }
+        if (firstNumber < 0 && secondNumber > 0 && thirdNumber > 0)
+        {
+            Console.WriteLine("The result is: -");
+        }
+        if (firstNumber < 0 && secondNumber > 0 && thirdNumber < 0)
+        {
+            Console.WriteLine("The result is: +");
         }
     }
 
