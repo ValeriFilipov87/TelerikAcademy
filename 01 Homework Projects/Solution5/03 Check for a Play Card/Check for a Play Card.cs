@@ -19,14 +19,14 @@ class CheckForAPlayCard
 {
     static void Main()
     {
-        string Colode = "2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A";
-        Console.WriteLine("The values of cards are: {0}", Colode);
+        string colode = "2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A";
+        Console.WriteLine("The values of cards are: {0}", colode);
         Console.Write("Please input values: ");
         string input = Console.ReadLine();
 
         char[] delimiters = new char[] { ' ', ',' };
 
-        string[] stringColode = Colode.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+        string[] stringColode = colode.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
         string[] stringInput = input.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
         string[] result = new string[input.Length];
         

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Bonus Score", "02 Bonus 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Check for a Play Card", "03 Check for a Play Card\03 Check for a Play Card.csproj", "{56F85D5D-C357-4C40-9030-9833AC5ACDF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Multiplication Sign", "04 Multiplication Sign\04 Multiplication Sign.csproj", "{CFB87CD8-688D-4A5B-BB6E-9D385489802A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{56F85D5D-C357-4C40-9030-9833AC5ACDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56F85D5D-C357-4C40-9030-9833AC5ACDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56F85D5D-C357-4C40-9030-9833AC5ACDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB87CD8-688D-4A5B-BB6E-9D385489802A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB87CD8-688D-4A5B-BB6E-9D385489802A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB87CD8-688D-4A5B-BB6E-9D385489802A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB87CD8-688D-4A5B-BB6E-9D385489802A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
