@@ -19,28 +19,29 @@ class CheckForAPlayCard
 {
     static void Main()
     {
-        string colode = "2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A";
-
+        string Colode = "2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A";
+        Console.WriteLine("The values of cards are: {0}", Colode);
+        Console.Write("Please input values: ");
         string input = Console.ReadLine();
 
         char[] delimiters = new char[] { ' ', ',' };
 
-        string[] checkInput = input.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
-        string[] checkColode = input.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+        string[] stringColode = Colode.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+        string[] stringInput = input.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+        string[] result = new string[input.Length];
         
-        for (int i = 0; i < checkInput.Length; i++)
-        {
 
-            if (colode.Contains(checkInput[i]))
+        for (int i = 0; i < stringInput.Length; i++)
+        {
+            result[i] = Array.Find(stringColode, element => element.Equals(stringInput[i], StringComparison.Ordinal));
+            if (result[i] != null)
             {
-                Console.WriteLine("{0} - Yes", checkInput[i]);
+                Console.WriteLine("{0} - yes", result[i]);
             }
             else
             {
-                Console.WriteLine("{0} - No", checkInput[i]);
+                Console.WriteLine("{0} - no", stringInput[i]);
             }
-
-
         }
 
 
