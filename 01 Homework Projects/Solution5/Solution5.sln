@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Sort 3 Numbers with Nest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Digit as Word", "08 Digit as Word\08 Digit as Word.csproj", "{A9A50DD4-94B1-44FF-BEFC-18C0D9095B56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Play with Int, Double and String", "09 Play with Int, Double and String\09 Play with Int, Double and String.csproj", "{A31CA903-BD4C-4ED6-9A85-07764712ABD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{A9A50DD4-94B1-44FF-BEFC-18C0D9095B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9A50DD4-94B1-44FF-BEFC-18C0D9095B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9A50DD4-94B1-44FF-BEFC-18C0D9095B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31CA903-BD4C-4ED6-9A85-07764712ABD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31CA903-BD4C-4ED6-9A85-07764712ABD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31CA903-BD4C-4ED6-9A85-07764712ABD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31CA903-BD4C-4ED6-9A85-07764712ABD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
