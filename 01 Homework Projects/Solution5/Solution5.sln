@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Digit as Word", "08 Digi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Play with Int, Double and String", "09 Play with Int, Double and String\09 Play with Int, Double and String.csproj", "{A31CA903-BD4C-4ED6-9A85-07764712ABD2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Beer Time", "10 Beer Time\10 Beer Time.csproj", "{A1EE1A61-A55A-4DFD-9FB9-437D6E8C7329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A31CA903-BD4C-4ED6-9A85-07764712ABD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A31CA903-BD4C-4ED6-9A85-07764712ABD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A31CA903-BD4C-4ED6-9A85-07764712ABD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EE1A61-A55A-4DFD-9FB9-437D6E8C7329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EE1A61-A55A-4DFD-9FB9-437D6E8C7329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EE1A61-A55A-4DFD-9FB9-437D6E8C7329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EE1A61-A55A-4DFD-9FB9-437D6E8C7329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
