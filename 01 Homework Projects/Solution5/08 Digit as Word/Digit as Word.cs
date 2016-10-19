@@ -30,12 +30,12 @@ class DigitAsWord
         {
             number = int.MaxValue;
         }
-        
+
         switch (number)
         {
             case 0: Console.WriteLine("{0}  zero", number); break;
             case 1: Console.WriteLine("{0}  one", number); break;
-            case 2: Console.WriteLine("{0}  two", number);break;
+            case 2: Console.WriteLine("{0}  two", number); break;
             case 3: Console.WriteLine("{0}  three", number); break;
             case 4: Console.WriteLine("{0}  four", number); break;
             case 5: Console.WriteLine("{0}  five", number); break;
@@ -48,4 +48,3 @@ class DigitAsWord
     }
 
 }
-
