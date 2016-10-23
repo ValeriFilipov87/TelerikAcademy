@@ -126,7 +126,7 @@ class NumberAsWords
         {
             return string.Empty;
         }
-        // Return char and concat substring..
+        // Return char and concat substring.
         return char.ToLower(s[0]) + s.Substring(1);
     }
 }
