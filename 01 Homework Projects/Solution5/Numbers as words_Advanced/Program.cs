@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 
 
 public static class NumericSpelling
@@ -47,7 +45,7 @@ public static class NumericSpelling
             return "negative " + ToVerbal(Math.Abs(value));
         }
 
-        System.Text.StringBuilder builder = new StringBuilder();
+        StringBuilder builder = new StringBuilder();
 
         int unit = 0;
 
