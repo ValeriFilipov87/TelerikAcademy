@@ -7,20 +7,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Numbers from 1 to N", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Numbers Not Divisible by 3 and 7", "02 Numbers Not Divisible by 3 and 7\02 Numbers Not Divisible by 3 and 7.csproj", "{10C10C2E-1F00-4BE0-95D3-02EEF074772E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Min Max Sum and Average of N Numbers", "03 Min Max Sum and Average of N Numbers\03 Min Max Sum and Average of N Numbers.csproj", "{DE79E73C-7E2F-4AD9-B3D9-FA6AD75BD26C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{84C77720-B6C6-41DF-9B37-40642FC5B896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84C77720-B6C6-41DF-9B37-40642FC5B896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C77720-B6C6-41DF-9B37-40642FC5B896}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{84C77720-B6C6-41DF-9B37-40642FC5B896}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{84C77720-B6C6-41DF-9B37-40642FC5B896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84C77720-B6C6-41DF-9B37-40642FC5B896}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10C10C2E-1F00-4BE0-95D3-02EEF074772E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10C10C2E-1F00-4BE0-95D3-02EEF074772E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C10C2E-1F00-4BE0-95D3-02EEF074772E}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{10C10C2E-1F00-4BE0-95D3-02EEF074772E}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{10C10C2E-1F00-4BE0-95D3-02EEF074772E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10C10C2E-1F00-4BE0-95D3-02EEF074772E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE79E73C-7E2F-4AD9-B3D9-FA6AD75BD26C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE79E73C-7E2F-4AD9-B3D9-FA6AD75BD26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE79E73C-7E2F-4AD9-B3D9-FA6AD75BD26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE79E73C-7E2F-4AD9-B3D9-FA6AD75BD26C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
