@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Min Max Sum and Average 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Print a Deck of 52 Cards", "04 Print a Deck of 52 Cards\04 Print a Deck of 52 Cards.csproj", "{9674E776-074A-4708-972D-0A54EA1EC97B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Calculate nfakt over x", "05 Calculate nfakt over x\05 Calculate nfakt over x.csproj", "{33350C89-8EA3-49A3-BBD2-A18D9056FAD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9674E776-074A-4708-972D-0A54EA1EC97B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9674E776-074A-4708-972D-0A54EA1EC97B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9674E776-074A-4708-972D-0A54EA1EC97B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33350C89-8EA3-49A3-BBD2-A18D9056FAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33350C89-8EA3-49A3-BBD2-A18D9056FAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33350C89-8EA3-49A3-BBD2-A18D9056FAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33350C89-8EA3-49A3-BBD2-A18D9056FAD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
