@@ -21,19 +21,15 @@ class MinMaxSumAndAverageOfNNumbers
         Console.WriteLine("Length of the sequence is: {0}", lengthSequence);
         Console.WriteLine("Please input {0} digits", lengthSequence);
         int[] sequence = new int[lengthSequence];
-        int max = new int();
-        int min = new int();
+        int max = int.MinValue;
+        int min = int.MaxValue;
         int sum = new int();
         double avg = new double();
 
         for (int i = 0; i < lengthSequence; i++)
         {
             sequence[i] = UserInput();
-            if (i == 0)
-            {
-                max = sequence[0];
-                min = sequence[0];
-            }
+
             if (sequence[i] > max)
             {
                 max = sequence[i];
