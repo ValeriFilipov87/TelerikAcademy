@@ -12,8 +12,22 @@ class CalculateNfoverKf
     {
         Console.Write("Insert N: ");
         int N = UserInput();
+        while (N>=100)
+        {
+            Console.WriteLine("Wrong input! N must be less than 100");
+            Console.WriteLine("Insert N: ");
+            N = UserInput();
+        }
+
         Console.Write("Insert K: ");
         int K = UserInput();
+        while (K>=N)
+        {
+            Console.WriteLine("Wrong input! K must be less than N");
+            Console.WriteLine("Insert K: ");
+            K = UserInput();
+        }
+
         long accN = CalculateFactorial(N);
         long accK = CalculateFactorial(K);
         double result = accN / accK;
