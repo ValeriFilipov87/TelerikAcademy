@@ -5,7 +5,7 @@ using System;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class Recursion
     {
         public static int acc = 1;
         static void Main()
