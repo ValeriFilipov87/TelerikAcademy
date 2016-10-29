@@ -7,7 +7,7 @@
 using System;
 using System.Numerics;
 
-class CalculateNfoverKf
+class CalculateCatalanNumbers
 {
     static void Main()
     {
