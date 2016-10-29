@@ -5,6 +5,7 @@
 */
 
 using System;
+using System.Numerics;
 
 class CalculateNfoverKf
 {
@@ -12,7 +13,7 @@ class CalculateNfoverKf
     {
         Console.Write("Insert N: ");
         int N = UserInput();
-        while (N>=100)
+        while (N >= 100)
         {
             Console.WriteLine("Wrong input! N must be less than 100");
             Console.WriteLine("Insert N: ");
@@ -21,23 +22,25 @@ class CalculateNfoverKf
 
         Console.Write("Insert K: ");
         int K = UserInput();
-        while (K>=N)
+        while (K >= N)
         {
             Console.WriteLine("Wrong input! K must be less than N");
             Console.WriteLine("Insert K: ");
             K = UserInput();
         }
 
-        long accN = CalculateFactorial(N);
-        long accK = CalculateFactorial(K);
-        double result = accN / accK;
+        var accN = (CalculateFactorial(N));
+        var accK = (CalculateFactorial(K));
+        var result = new BigInteger();
+        result = accN / accK;
         Console.WriteLine("Result is: {0}", result);
 
     }
 
-    private static long CalculateFactorial(int n)
+    private static BigInteger CalculateFactorial(int n)
     {
-        long factorial = 1;
+        var factorial = new BigInteger();
+        factorial = 1;
         for (int i = 1; i <= n; i++)
         {
             factorial *= i;
