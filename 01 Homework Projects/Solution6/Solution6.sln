@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Matrix of Numbers", "09 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Odd and Even Product", "10 Odd and Even Product\10 Odd and Even Product.csproj", "{7853CF38-753E-4E97-86A9-004243B99E06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Random Numbers in Given Range", "11 Random Numbers in Given Range\11 Random Numbers in Given Range.csproj", "{3E2B79BA-8EF1-4439-9BF1-E22698828689}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{7853CF38-753E-4E97-86A9-004243B99E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7853CF38-753E-4E97-86A9-004243B99E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7853CF38-753E-4E97-86A9-004243B99E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2B79BA-8EF1-4439-9BF1-E22698828689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2B79BA-8EF1-4439-9BF1-E22698828689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2B79BA-8EF1-4439-9BF1-E22698828689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2B79BA-8EF1-4439-9BF1-E22698828689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
