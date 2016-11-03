@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Odd and Even Product", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 Random Numbers in Given Range", "11 Random Numbers in Given Range\11 Random Numbers in Given Range.csproj", "{3E2B79BA-8EF1-4439-9BF1-E22698828689}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12 Randomize the Numbers 1 to N", "12 Randomize the Numbers 1 to N\12 Randomize the Numbers 1 to N.csproj", "{BFA48A87-AE9C-487D-A9F2-8DE75F8B9352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 Binary to Decimal Number", "13 Binary to Decimal Number\13 Binary to Decimal Number.csproj", "{F1E413C8-DF7A-4BE5-892F-E8AB45541084}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{3E2B79BA-8EF1-4439-9BF1-E22698828689}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2B79BA-8EF1-4439-9BF1-E22698828689}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2B79BA-8EF1-4439-9BF1-E22698828689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA48A87-AE9C-487D-A9F2-8DE75F8B9352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA48A87-AE9C-487D-A9F2-8DE75F8B9352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA48A87-AE9C-487D-A9F2-8DE75F8B9352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA48A87-AE9C-487D-A9F2-8DE75F8B9352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1E413C8-DF7A-4BE5-892F-E8AB45541084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1E413C8-DF7A-4BE5-892F-E8AB45541084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1E413C8-DF7A-4BE5-892F-E8AB45541084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1E413C8-DF7A-4BE5-892F-E8AB45541084}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
