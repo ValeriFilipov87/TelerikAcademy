@@ -14,12 +14,12 @@ class BinaryToDecimalNumber
     {
         Console.WriteLine("Please input number in binary form");
         string input = UserInput();
-        int result = 0;
+        long result = 0;
 
         for (int i = 0; i < input.Length; i++)
         {
 
-            result = result + (int)Char.GetNumericValue(input[i]) * ((int)Math.Pow(2, input.Length - i - 1));
+            result = result + (long)Char.GetNumericValue(input[i]) * ((long)Math.Pow(2, input.Length - i - 1));
         }
         Console.WriteLine(result);
     }
