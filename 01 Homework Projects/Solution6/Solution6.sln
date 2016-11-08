@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Hexadecimal to Decimal N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16 Decimal to Hexadecimal Number", "16 Decimal to Hexadecimal Number\16 Decimal to Hexadecimal Number.csproj", "{82EE9DFB-22AC-43B0-8C42-482AFC2E6D7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17 Calculate GCD", "17 Calculate GCD\17 Calculate GCD.csproj", "{7EA4ED11-B8B6-42F0-81F5-328CD6B15224}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{82EE9DFB-22AC-43B0-8C42-482AFC2E6D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82EE9DFB-22AC-43B0-8C42-482AFC2E6D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82EE9DFB-22AC-43B0-8C42-482AFC2E6D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA4ED11-B8B6-42F0-81F5-328CD6B15224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA4ED11-B8B6-42F0-81F5-328CD6B15224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA4ED11-B8B6-42F0-81F5-328CD6B15224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA4ED11-B8B6-42F0-81F5-328CD6B15224}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
