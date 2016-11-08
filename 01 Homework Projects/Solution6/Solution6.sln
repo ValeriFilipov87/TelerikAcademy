@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Print a Deck of 52 Cards
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Calculate nfakt over x", "05 Calculate nfakt over x\05 Calculate nfakt over x.csproj", "{33350C89-8EA3-49A3-BBD2-A18D9056FAD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate NfoverKf", "ConsoleApplication1\Calculate NfoverKf.csproj", "{A3422953-68D7-4776-8C15-B465BC276FAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N Factorial", "ConsoleApplication1\N Factorial.csproj", "{A3422953-68D7-4776-8C15-B465BC276FAB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Calculate NfoverKf", "06 Calculate NfoverKf\06 Calculate NfoverKf.csproj", "{57FF562F-1A81-476B-A34E-B8273516D4FE}"
 EndProject
