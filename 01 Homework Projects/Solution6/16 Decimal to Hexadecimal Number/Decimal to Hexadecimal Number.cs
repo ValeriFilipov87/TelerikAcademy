@@ -1,28 +1,31 @@
-﻿/*  Problem 14. Decimal to Binary Number
+﻿/*  Problem 16. Decimal to Hexadecimal Number
 
-    Using loops write a program that converts an integer number to its binary representation.
+    Using loops write a program that converts an integer number to its hexadecimal representation.
     The input is entered as long. The output should be a variable of type string.
     Do not use the built-in .NET functionality.
 */
 
+
 using System;
 
-class DecimalToBinaryNumber
+class DecimalToHexadecimalNumber
 {
     static void Main()
     {
+        char[] hexSymbols = new char[] { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', };
+        string result = "";
+        char temp = new char();
+        long reminder = new long();
         Console.Write("Input a digit: ");
         long digit = UserInput();
-        string result = "";
-        long remainder = new long();
-        char binary = new char();
         do
         {
-            remainder = digit % 2 + 48;
-            digit = digit / 2;
-            binary = (char)remainder;
-            result = result + binary;
+            reminder = digit % 16;
+            digit = digit / 16;
+            temp = hexSymbols[reminder];
+            result = result + temp;
         } while (digit != 0);
+
         result = ReverseString(result);
         Console.WriteLine(result);
     }
