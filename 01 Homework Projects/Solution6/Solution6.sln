@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18 Trailing Zeroes in Nfakt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19 Spiral Matrix", "19 Spiral Matrix\19 Spiral Matrix.csproj", "{7FC67214-C589-4FDF-A13D-28A3634EF1E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temp", "temp\temp.csproj", "{C476ECAA-31AA-4432-BA52-55EBEFE13AEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{7FC67214-C589-4FDF-A13D-28A3634EF1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FC67214-C589-4FDF-A13D-28A3634EF1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FC67214-C589-4FDF-A13D-28A3634EF1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C476ECAA-31AA-4432-BA52-55EBEFE13AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C476ECAA-31AA-4432-BA52-55EBEFE13AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C476ECAA-31AA-4432-BA52-55EBEFE13AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C476ECAA-31AA-4432-BA52-55EBEFE13AEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
