@@ -4,20 +4,20 @@ using System;
 
 class ComparingFloats
 {
-        static void Main()
+    static void Main()
+    {
+        double eps = 0.000000000001;
+        Console.WriteLine("Write your first floating number");
+        double firstNumber = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Write your second floating number");
+        double secondNumber = Convert.ToDouble(Console.ReadLine());
+        if (Math.Abs(firstNumber - secondNumber) < eps)
         {
-            double eps = 0.000000000001;
-            Console.WriteLine("Write your first floating number");
-            double firstNumber = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Write your second floating number");
-            double secondNumber = Convert.ToDouble(Console.ReadLine());
-            if (Math.Abs(firstNumber - secondNumber) < eps)
-            {
-                Console.WriteLine("A > B");
-            }
-            else
-            {
-                Console.WriteLine("B > A");
-            }
+            Console.WriteLine("A > B");
         }
+        else
+        {
+            Console.WriteLine("B > A");
+        }
+    }
 }

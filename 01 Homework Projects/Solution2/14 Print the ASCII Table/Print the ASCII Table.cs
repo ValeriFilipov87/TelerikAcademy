@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Text;
 
-    class PrintTheASCIITable
+
+class PrintTheASCIITable
+{
+    static void Main()
     {
-        static void Main()
+        for (int i = 33; i < 127; i++)
         {
-            Console.OutputEncoding = Encoding.ASCII;
-            for(int i = 31; i<128; i++)
-            {
-                char x = (char)i;
-                Console.WriteLine(x);
-            }
+            Console.Write((char)i);
+            Console.WriteLine();
         }
     }
+}
 
