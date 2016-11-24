@@ -12,7 +12,7 @@ class GravitationOnTheMoon
         float earthWeigth = float.Parse(Console.ReadLine());
         float coeficient = 0.17F;
         float moonWeigth = earthWeigth * coeficient;
-        Console.WriteLine("The equivelent weigth on the Moon is: \n{0}", moonWeigth);
+        Console.WriteLine("{0:F3}", moonWeigth);
     }
 }
 
