@@ -6,19 +6,20 @@ class PointInACircle
 {
     static void Main()
     {
-        Console.WriteLine("You must enter x coordinate of a point");
+        //Console.WriteLine("You must enter x coordinate of a point");
         double xCoordinate = double.Parse(Console.ReadLine());
-        Console.WriteLine("You must enter y coordinate of a point");
+        //Console.WriteLine("You must enter y coordinate of a point");
         double yCoordinate = double.Parse(Console.ReadLine());
 
-        double check = Math.Pow(xCoordinate,2) + Math.Pow(yCoordinate,2);
+        double check = Math.Pow(xCoordinate, 2) + Math.Pow(yCoordinate, 2);
+
         if (Math.Sqrt(check) <= 2)
         {
-            Console.WriteLine("The given point is inside a circle with radius 2");
+            Console.WriteLine("yes {0:F2}", Math.Sqrt(check));
         }
         else
         {
-            Console.WriteLine("The given point is not inside a circle with radius 2");
+            Console.WriteLine("no {0:F2}", Math.Sqrt(check));
         }
     }
 }
