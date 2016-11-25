@@ -6,26 +6,14 @@ class SumOfFiveNumbers
 {
     static void Main()
     {
-        Console.WriteLine("Please input 5 digits:");
-        string inputNumber = Console.ReadLine();
-        int length = 0;
-        var array = inputNumber.Split(' ');
-        if (inputNumber[inputNumber.Length - 1] == ' ')
+        int[] input = new int[5];
+        int sum = new int();
+        for (int i = 0; i < input.Length; i++)
         {
-            length = array.Length - 1;
+            input[i] = int.Parse(Console.ReadLine());
+            sum += input[i];
         }
-        else
-        {
-            length = array.Length;
-        }
-        decimal y = new decimal();
-        decimal result = new decimal();
-        for (int i = 0; i < length; i++)
-        {
-            y = decimal.Parse(array[i]);
-            result = y + result;
-        }
-        Console.WriteLine(result);
-
+        Console.WriteLine(sum);
     }
+        
 }
