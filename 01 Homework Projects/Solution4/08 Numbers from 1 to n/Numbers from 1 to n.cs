@@ -7,17 +7,7 @@ class NumbersFromOneToN
 {
     static void Main()
     {
-        Console.WriteLine("Please insert an intiger number:");
-        int number;
-        bool isParsed = int.TryParse(Console.ReadLine(), out number);
-        Console.Clear();
-        while (isParsed = !true || number <= 0)
-        {
-            Console.Clear();
-            Console.WriteLine("Wrong input!");
-            Console.WriteLine("Please insert positive integer:");
-            isParsed = int.TryParse(Console.ReadLine(), out number);
-        }
+        int number = int.Parse(Console.ReadLine());
         for (int i = 1; i <= number; i++)
         {
             Console.WriteLine(i);
