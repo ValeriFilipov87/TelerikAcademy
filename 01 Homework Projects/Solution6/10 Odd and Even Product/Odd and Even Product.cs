@@ -9,17 +9,17 @@ using System;
 
 class OddAndEvenProduct
 {
-    public static int lengthSequence = LengthSequence();
+    public static int lengthSequence = int.Parse(Console.ReadLine());
     public static int[] sequence = SequenceInput(lengthSequence);
     static void Main()
     {
         Calculate(sequence);
-    }
+    } 
 
     private static void Calculate(int[] sequence)
     {
-        int resultEvens = 1;
-        int resultOdds = 1;
+        long resultEvens = 1;
+        long resultOdds = 1;
         int check = new int();
 
         for (int i = 1; i <= lengthSequence; i++)
@@ -36,11 +36,11 @@ class OddAndEvenProduct
         }
         if (resultEvens == resultOdds)
         {
-            Console.WriteLine("YES! The product is: {0}", resultEvens);
+            Console.WriteLine("yes {0}", resultEvens);
         }
         else
         {
-            Console.WriteLine("NO!\nOdd Product is: {0}\nEven Product is {1}", resultOdds, resultEvens);
+            Console.WriteLine("no {0} {1}", resultOdds, resultEvens);
 
         }
     }
@@ -48,39 +48,14 @@ class OddAndEvenProduct
     private static int[] SequenceInput(int lengthSequence)
     {
         int length = lengthSequence;
-        int[] sequence = new int[length];
-        for (int i = 0; i < length; i++)
+        string input = Console.ReadLine();
+        int[] sequence = new int[lengthSequence];
+        string[] digits = input.Split(' ');
+        for (int i = 0; i < lengthSequence; i++)
         {
-            sequence[i] = UserInput();
+            sequence[i] = int.Parse(digits[i]);
         }
         return sequence;
-    }
-
-    private static int LengthSequence()
-    {
-        Console.Write("Please input length of the sequence: ");
-        int length = UserInput();
-        while (length <= 0)
-        {
-            Console.Write("Invalid choice! Please input positive number for the length: ");
-            length = UserInput();
-        }
-        Console.WriteLine("Length of the sequence is: {0}", length);
-        Console.WriteLine("Please input {0} digits", length);
-        return length;
-    }
-
-
-    private static int UserInput()
-    {
-        int input = new int();
-        bool check = int.TryParse(Console.ReadLine(), out input);
-        while (!check)
-        {
-            Console.WriteLine("The input is wrong!");
-            check = int.TryParse(Console.ReadLine(), out input);
-        }
-        return input;
     }
 }
 
