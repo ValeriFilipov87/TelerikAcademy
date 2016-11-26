@@ -11,24 +11,18 @@ class MinMaxSumAndAverageOfNNumbers
 {
     static void Main()
     {
-        Console.Write("Please input length of the sequence: ");
-        int lengthSequence = UserInput();
-        while (lengthSequence <= 0)
-        {
-            Console.Write("Invalid choice! Please input positive number for the length: ");
-            lengthSequence = UserInput();
-        }
-        Console.WriteLine("Length of the sequence is: {0}", lengthSequence);
-        Console.WriteLine("Please input {0} digits", lengthSequence);
-        int[] sequence = new int[lengthSequence];
-        int max = int.MinValue;
-        int min = int.MaxValue;
-        int sum = new int();
+
+        int lengthSequence = int.Parse(Console.ReadLine());
+
+        double[] sequence = new double[lengthSequence];
+        double max = double.MinValue;
+        double min = double.MaxValue;
+        double sum = new double();
         double avg = new double();
 
         for (int i = 0; i < lengthSequence; i++)
         {
-            sequence[i] = UserInput();
+            sequence[i] = double.Parse(Console.ReadLine());
 
             if (sequence[i] > max)
             {
@@ -39,24 +33,12 @@ class MinMaxSumAndAverageOfNNumbers
                 min = sequence[i];
             }
             sum = sum + sequence[i];
-            avg = (double)sum / (double)lengthSequence;
+            avg = sum / lengthSequence;
         }
-        Console.WriteLine("Max: {0}", max);
-        Console.WriteLine("Min: {0}", min);
-        Console.WriteLine("Sum: {0}", sum);
-        Console.WriteLine("Average: {0:0.00}", avg);
-    }
-
-    private static int UserInput()
-    {
-        int input = new int();
-        bool check = int.TryParse(Console.ReadLine(), out input);
-        while (!check)
-        {
-            Console.WriteLine("The input is wrong!");
-            check = int.TryParse(Console.ReadLine(), out input);
-        }
-        return input;
+        Console.WriteLine("min={0:0.00}", min);
+        Console.WriteLine("max={0:0.00}", max);
+        Console.WriteLine("sum={0:0.00}", sum);
+        Console.WriteLine("avg={0:0.00}", avg);
     }
 }
 
