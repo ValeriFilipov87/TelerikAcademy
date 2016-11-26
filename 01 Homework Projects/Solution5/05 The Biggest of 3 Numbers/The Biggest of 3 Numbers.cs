@@ -19,46 +19,53 @@ class TheBiggestOfThreeNumbers
 {
     static void Main()
     {
-        Console.Write("Please input first Number: ");
+        
         double fisrtNumber = ReadFromUserInput();
-        Console.Write("Please input second Number: ");
+        
         double secondNumber = ReadFromUserInput();
-        Console.Write("Please input third Number: ");
-        double thirrdNumber = ReadFromUserInput();
+       
+        double thirdNumber = ReadFromUserInput();
+
+        double max = new double();
 
 // first option
 
-        double[] result = new double[] { fisrtNumber, secondNumber, thirrdNumber };
+        /*double[] result = new double[] { fisrtNumber, secondNumber, thirrdNumber };
 
-        Console.WriteLine("The bigest number is: {0}", result.Max());
+        Console.WriteLine(result.Max());*/
 
 // second option
         if (fisrtNumber >= secondNumber)
         {
-            if (secondNumber >= thirrdNumber)
+            if (secondNumber >= thirdNumber)
             {
-                Console.WriteLine("max is " + fisrtNumber);
+                max = fisrtNumber;
+            }
+            else if (fisrtNumber >= thirdNumber)
+            {
+                max = fisrtNumber;
             }
             else
             {
-                Console.WriteLine("max is " + thirrdNumber);
+                max = thirdNumber;
             }
         }
         if (fisrtNumber <= secondNumber)
         {
-            if (fisrtNumber >= thirrdNumber)
+            if (fisrtNumber >= thirdNumber)
             {
-                Console.WriteLine("max is " + secondNumber);
+                max = secondNumber;
             }
-            else if (secondNumber >= thirrdNumber)
+            else if (secondNumber >= thirdNumber)
             {
-                Console.WriteLine("max is " + secondNumber);
+                max = secondNumber;
             }
             else
             {
-                Console.WriteLine("max is " + thirrdNumber);
+                max = thirdNumber;
             }
         }
+        Console.WriteLine(max);
     }
     static double ReadFromUserInput()
     {
