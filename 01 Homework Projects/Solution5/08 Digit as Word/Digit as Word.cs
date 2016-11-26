@@ -22,7 +22,7 @@ class DigitAsWord
 {
     static void Main()
     {
-        Console.Write("Please input a digit between 0 - 9: ");
+        
         string input = Console.ReadLine();
         int number;
         bool result = int.TryParse(input, out number);
@@ -33,17 +33,17 @@ class DigitAsWord
 
         switch (number)
         {
-            case 0: Console.WriteLine("{0}  zero", number); break;
-            case 1: Console.WriteLine("{0}  one", number); break;
-            case 2: Console.WriteLine("{0}  two", number); break;
-            case 3: Console.WriteLine("{0}  three", number); break;
-            case 4: Console.WriteLine("{0}  four", number); break;
-            case 5: Console.WriteLine("{0}  five", number); break;
-            case 6: Console.WriteLine("{0}  six", number); break;
-            case 7: Console.WriteLine("{0}  seven", number); break;
-            case 8: Console.WriteLine("{0}  eight", number); break;
-            case 9: Console.WriteLine("{0}  nine", number); break;
-            default: Console.WriteLine("{0} is not a digit", input); break;
+            case 0: Console.WriteLine("zero"); break;
+            case 1: Console.WriteLine("one"); break;
+            case 2: Console.WriteLine("two"); break;
+            case 3: Console.WriteLine("three"); break;
+            case 4: Console.WriteLine("four"); break;
+            case 5: Console.WriteLine("five"); break;
+            case 6: Console.WriteLine("six"); break;
+            case 7: Console.WriteLine("seven"); break;
+            case 8: Console.WriteLine("eight"); break;
+            case 9: Console.WriteLine("nine"); break;
+            default: Console.WriteLine("not a digit"); break;
         }
     }
 
