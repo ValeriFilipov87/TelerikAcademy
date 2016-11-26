@@ -12,31 +12,15 @@ class CalculateCombinatorics
 {
     static void Main()
     {
-        Console.Write("Insert N: ");
-        int N = UserInput();
-        while (N >= 100)
-        {
-            Console.WriteLine("Wrong input! N must be less than 100");
-            Console.WriteLine("Insert N: ");
-            N = UserInput();
-        }
-
-        Console.Write("Insert K: ");
-        int K = UserInput();
-        while (K >= N)
-        {
-            Console.WriteLine("Wrong input! K must be less than N");
-            Console.WriteLine("Insert K: ");
-            K = UserInput();
-        }
+        int N = int.Parse(Console.ReadLine());
+        int K = int.Parse(Console.ReadLine());
 
         var accN = CalculateFactorial(N);
         var accK = CalculateFactorial(K);
         var accNMinusK = CalculateFactorial(N - K);
         var result = new BigInteger();
         result = accN / (accK * accNMinusK);
-        Console.WriteLine("Result is: {0}", result);
-
+        Console.WriteLine(result);
     }
 
     private static BigInteger CalculateFactorial(int n)
@@ -48,18 +32,6 @@ class CalculateCombinatorics
             factorial *= i;
         }
         return factorial;
-    }
-
-    private static int UserInput()
-    {
-        int input = new int();
-        bool check = int.TryParse(Console.ReadLine(), out input);
-        while (!check)
-        {
-            Console.WriteLine("The input is wrong!");
-            check = int.TryParse(Console.ReadLine(), out input);
-        }
-        return input;
     }
 }
 
