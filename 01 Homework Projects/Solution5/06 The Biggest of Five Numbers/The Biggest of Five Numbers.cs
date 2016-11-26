@@ -17,15 +17,15 @@ class BiggestOfFiveNumbers
 {
     static void Main()
     {
-        Console.Write("Please input first Number: ");
+        
         double firstNumber = ReadFromUserInput();
-        Console.Write("Please input second Number: ");
+    
         double secondNumber = ReadFromUserInput();
-        Console.Write("Please input third Number: ");
+       
         double thirdNumber = ReadFromUserInput();
-        Console.Write("Please input forth Number: ");
+   
         double forthNumber = ReadFromUserInput();
-        Console.Write("Please input fifth Number: ");
+      
         double fifthNumber = ReadFromUserInput();
 
         double max = firstNumber;
@@ -49,7 +49,7 @@ class BiggestOfFiveNumbers
         {
             max = fifthNumber;
         }
-        Console.WriteLine("max is " + max);
+        Console.WriteLine(max);
 
     }
 
