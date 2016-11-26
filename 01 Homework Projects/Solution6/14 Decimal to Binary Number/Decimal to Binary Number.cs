@@ -11,8 +11,7 @@ class DecimalToBinaryNumber
 {
     static void Main()
     {
-        Console.Write("Input a digit: ");
-        long digit = UserInput();
+        long digit = long.Parse(Console.ReadLine());
         string result = "";
         long remainder = new long();
         char binary = new char();
@@ -32,18 +31,6 @@ class DecimalToBinaryNumber
         char[] arr = s.ToCharArray();
         Array.Reverse(arr);
         return new string(arr);
-    }
-
-    private static long UserInput()
-    {
-        long input = new long();
-        bool check = long.TryParse(Console.ReadLine(), out input);
-        while (!check)
-        {
-            Console.WriteLine("The input is wrong!");
-            check = long.TryParse(Console.ReadLine(), out input);
-        }
-        return input;
     }
 }
 
