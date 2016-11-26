@@ -18,28 +18,43 @@ using System;
 
 class PrintDeckOfCards
 {
-    public static int[] cardColour = new int[] { 3, 4, 5, 6 };
-    public static string[] cardValue = new string[] {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A", };
+    public static string[] cardColour = new string[] { "spades", "clubs", "hearts", "diamonds" };
+    public static string[] cardValue = new string[] { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A", };
     static void Main()
     {
-        for (int i = 0; i < cardValue.Length; i++)
+        string input = Console.ReadLine();
+        int n = new int();
+        switch (input)
         {
-            PrintCards(cardValue[i]);
+            case "2": n = 2; break;
+            case "3": n = 3; break;
+            case "4": n = 4; break;
+            case "5": n = 5; break;
+            case "6": n = 6; break;
+            case "7": n = 7; break;
+            case "8": n = 8; break;
+            case "9": n = 9; break;
+            case "10": n = 10; break;
+            case "J": n = 11; break;
+            case "Q": n = 12; break;
+            case "K": n = 13; break;
+            case "A": n = 14; break;
+        }
+
+        for (int value = 0; value < n - 1; value++)
+        {
+            for (int colour = 0; colour < cardColour.Length; colour++)
+            {
+                Console.Write(cardValue[value]);
+                Console.Write(" of ");
+                Console.Write(cardColour[colour]);
+                if (colour != cardColour.Length - 1)
+                {
+                    Console.Write(", ");
+                }
+            }
             Console.WriteLine();
         }
-
-
-    }
-
-    private static void PrintCards(string cardValue)
-    {
-        string value = cardValue;
-        string concat = " of ";
-        for (int i = 0; i < cardColour.Length; i++)
-        {
-            Console.Write(value + concat + (char)cardColour[i] + " ");
-        }
-
     }
 }
 
