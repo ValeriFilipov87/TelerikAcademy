@@ -11,23 +11,14 @@ class CalculateCatalanNumbers
 {
     static void Main()
     {
-        Console.Write("Insert N: ");
-        int N = UserInput();
-        while (N >= 100)
-        {
-            Console.WriteLine("Wrong input! N must be less than 100");
-            Console.WriteLine("Insert N: ");
-            N = UserInput();
-        }
 
-
+        int N = int.Parse(Console.ReadLine());
         var acc2N = CalculateFactorial(2 * N);
         var accNPlus1 = CalculateFactorial(N + 1);
         var accN = CalculateFactorial(N);
         var result = new BigInteger();
         result = acc2N / (accNPlus1 * accN);
-        Console.WriteLine("Result is: {0}", result);
-
+        Console.WriteLine(result);
     }
 
     private static BigInteger CalculateFactorial(int n)
@@ -39,18 +30,6 @@ class CalculateCatalanNumbers
             factorial *= i;
         }
         return factorial;
-    }
-
-    private static int UserInput()
-    {
-        int input = new int();
-        bool check = int.TryParse(Console.ReadLine(), out input);
-        while (!check)
-        {
-            Console.WriteLine("The input is wrong!");
-            check = int.TryParse(Console.ReadLine(), out input);
-        }
-        return input;
     }
 }
 
