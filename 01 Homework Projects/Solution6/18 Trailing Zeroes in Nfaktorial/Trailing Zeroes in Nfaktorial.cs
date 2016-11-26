@@ -12,7 +12,6 @@ class TrailingZeroesInNfaktorial
 {
     static void Main()
     {
-        Console.Write("Input a positive number: ");
         long input = UserInput();
         long acc = 5;
         long result = 0;
