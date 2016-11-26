@@ -11,7 +11,7 @@ class SpiralMatrix
 {
     static void Main()
     {
-        Console.Write("Input a positive number: ");
+        
         int m = UserInput();
         int[,] matrix = new int[m, m];
         int row = 0;
@@ -70,16 +70,15 @@ class SpiralMatrix
 
     private static void printMatrix(int[,] matrix, int m)
     {
-        Console.WriteLine();
         for (int r = 0; r < m; r++)
         {
             for (int c = 0; c < m; c++)
             {
-                Console.Write("{0,4}", matrix[r, c]);
+                Console.Write("{0,0}", matrix[r, c]);
+                Console.Write(' ');
             }
             Console.WriteLine();
         }
-        Console.WriteLine();
     }
 
     private static int UserInput()
