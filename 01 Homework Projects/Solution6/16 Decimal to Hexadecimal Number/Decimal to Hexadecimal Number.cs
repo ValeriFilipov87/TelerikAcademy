@@ -16,7 +16,6 @@ class DecimalToHexadecimalNumber
         string result = "";
         char temp = new char();
         long reminder = new long();
-        Console.Write("Input a digit: ");
         long digit = UserInput();
         do
         {
