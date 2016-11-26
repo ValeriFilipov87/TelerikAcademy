@@ -10,13 +10,11 @@ class CalculateNfaktOverX
 {
     static void Main()
     {
-        Console.Write("Please input value for N: ");
-        int N = UserInput();
-        Console.Write("Please input value for X: ");
-        int X = UserInput();
+        int N = int.Parse(Console.ReadLine());
+        double X = double.Parse(Console.ReadLine());
         double square = new double();
         double temp = new double();
-        int factorial = 1;
+        long factorial = 1;
         double result = 1;
         for (int i = 1; i <= N; i++)
         {
@@ -26,17 +24,6 @@ class CalculateNfaktOverX
             result = result + temp;
         }
         Console.WriteLine("{0:F5}", result);
-    }
-    private static int UserInput()
-    {
-        int input = new int();
-        bool check = int.TryParse(Console.ReadLine(), out input);
-        while (!check)
-        {
-            Console.WriteLine("The input is wrong!");
-            check = int.TryParse(Console.ReadLine(), out input);
-        }
-        return input;
-    }
+    }  
 }
 
