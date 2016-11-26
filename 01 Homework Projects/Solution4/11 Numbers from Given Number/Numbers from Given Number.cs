@@ -5,39 +5,31 @@ using System;
 
 class NumbersFromGivenNumber
 {
-    static void ReturnNumber()
-    {
-        int number;
-        bool isParsed = int.TryParse(Console.ReadLine(), out number);
-        while (isParsed = !true || number <= 0)
-        {
-            Console.Clear();
-            Console.WriteLine("Wrong input!");
-            Console.WriteLine("Please insert positive integer:");
-            isParsed = int.TryParse(Console.ReadLine(), out number);
-        }
-        return number;
-    }
 
     static void Main()
     {
-        Console.WriteLine("Please insert first intiger number:");
-        int firstNumber = ReturnNumber();
-        Console.WriteLine("Please insert second intiger number:");
-        int secondNumber = ReturnNumber();
+
+        int firstNumber = int.Parse(Console.ReadLine());
+        int secondNumber = int.Parse(Console.ReadLine());
+        if (firstNumber < 0)
+        {
+            firstNumber *= -1;
+        }
+        if (secondNumber < 0)
+        {
+            secondNumber *= -1;
+        }
         int b = 0;
         int p = 0;
-        for (int i = firstNumber; i <= secondNumber; i++)
+        for (int i = firstNumber + 1; i < secondNumber; i++)
         {
             b = i % 5;
             if (b == 0)
             {
                 p++;
-                Console.Write("{0}, ", i);
             }
         }
-        Console.WriteLine();
-        Console.WriteLine("The answer is: {0}", p);
+        Console.WriteLine(p);
 
     }
 }

@@ -15,9 +15,9 @@ class ExchangeIfGreater
 {
     static void Main()
     {
-        Console.Write("Please input first Number: ");
+        
         double fisrtNumber = ReadFromUserInput();
-        Console.Write("Please input second Number: ");
+        
         double secondNumber = ReadFromUserInput();
 
         DigitCheck(fisrtNumber, secondNumber);       
@@ -33,11 +33,11 @@ class ExchangeIfGreater
     {
         if (a > b)
         {
-            Console.WriteLine("Result is: {0}, {1}", b, a);
+            Console.WriteLine("{0} {1}", b, a);
         }
         else
         {
-            Console.WriteLine("Result is: {0}, {1}", a, b);
+            Console.WriteLine("{0} {1}", a, b);
         }
     }
 }
