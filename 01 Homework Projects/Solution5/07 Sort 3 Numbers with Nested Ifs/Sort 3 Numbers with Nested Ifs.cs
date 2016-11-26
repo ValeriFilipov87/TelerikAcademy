@@ -23,16 +23,16 @@ class SortThreeNumbersWithNestedIfs
 {
     static void Main()
     {
-        Console.Write("Please input first Number: ");
-        double firstNumber = ReadFromUserInput();
-        Console.Write("Please input second Number: ");
-        double secondNumber = ReadFromUserInput();
-        Console.Write("Please input third Number: ");
-        double thirdNumber = ReadFromUserInput();
+    
+        int firstNumber = ReadFromUserInput();
+       
+        int secondNumber = ReadFromUserInput();
+      
+        int thirdNumber = ReadFromUserInput();
 
-        double max = new double();
-        double mid = new double();
-        double min = new double();
+        int max = new int();
+        int mid = new int();
+        int min = new int();
 
         if (firstNumber >= secondNumber && firstNumber >= thirdNumber)
         {
@@ -76,11 +76,11 @@ class SortThreeNumbersWithNestedIfs
                 min = firstNumber;
             }
         }
-        Console.WriteLine("Result is: {0} {1} {2}", max, mid, min);
+        Console.WriteLine("{0} {1} {2}", max, mid, min);
     }
-    static double ReadFromUserInput()
+    static int ReadFromUserInput()
     {
-        double number = double.Parse(Console.ReadLine());
+        int number = int.Parse(Console.ReadLine());
         return number;
     }
 }
