@@ -9,28 +9,22 @@ class NumbersNotDivisibleByThreeaAndSeven
 {
     static void Main()
     {
-        int input = UserInput();
-        
+        int input = int.Parse(Console.ReadLine());
+
         for (int i = 0; i <= input; i++)
         {
+            
             if (i % 3 != 0 && i % 7 != 0)
             {
-                Console.Write(i + " ");
+                Console.Write(i);
+                if (i != 0 && i != input + 1)
+                {
+                    Console.Write(' ');
+                }
             }
         }
         Console.WriteLine();
     }
-    private static int UserInput()
-    {
-        int input = new int();
-        Console.WriteLine("Please input intiger number!");
-        bool check = int.TryParse(Console.ReadLine(), out input);
-        while (!check)
-        {
-            Console.WriteLine("The input is wrong! Please input intiger number!");
-            check = int.TryParse(Console.ReadLine(), out input);
-        }
-        return input;
-    }
+
 }
 
