@@ -12,7 +12,7 @@ class BinaryToDecimalNumber
 {
     static void Main()
     {
-        Console.WriteLine("Please input number in binary form");
+
         string input = UserInput();
         long result = 0;
 
@@ -24,7 +24,7 @@ class BinaryToDecimalNumber
         Console.WriteLine(result);
     }
 
-    private static string UserInput()
+   private static string UserInput()
     {
         string binaryDigit = "";
         bool flag = true;
