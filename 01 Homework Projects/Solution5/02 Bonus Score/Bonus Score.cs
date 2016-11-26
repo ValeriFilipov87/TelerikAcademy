@@ -23,46 +23,34 @@ class BonusScore
 
     static void Main()
     {
-        Console.Write("Please input a number from 1 to 9: ");
-        double digit = ReadFromUserInput();
-        digit = CheckNumber(digit);
-
+        int digit = ReadFromUserInput();
         ApplyScoreCalculation(digit);
     }
 
-    private static void ApplyScoreCalculation(double a)
+    private static void ApplyScoreCalculation(int a)
     {
-        if (a >= 1 && a < 3)
+        if (a >= 1 && a <= 3)
         {
-            Console.WriteLine("Score is: {0}", a * firstMultiplier);
+            Console.WriteLine(a * firstMultiplier);
         }
-        if (a >= 3 && a < 6)
+        if (a >= 4 && a < 7)
         {
-            Console.WriteLine("Score is: {0}", a * secondMultiplier);
+            Console.WriteLine(a * secondMultiplier);
         }
-        if (a >= 6 && a < 10)
+        if (a >= 7 && a < 10)
         {
-            Console.WriteLine("Score is: {0}", a * thirdMultiplier);
+            Console.WriteLine(a * thirdMultiplier);
+        }
+        if (a >= 10 || a < 1)
+        {
+            Console.WriteLine("invalid score");
         }
     }
 
-    static double ReadFromUserInput()
+    static int ReadFromUserInput()
     {
-        double number = Double.Parse(Console.ReadLine());
-       // CheckNumber(number);
+        int number = int.Parse(Console.ReadLine());
         return number;
     }
 
-    private static double CheckNumber(double number)
-    {
-
-        while (number > 9 || number <= 0)
-        {
-            Console.Clear();
-            Console.Write("The input number is incorrect");
-            Console.Write("Please, try again: ");
-            number = ReadFromUserInput();
-        }
-        return number;
-    }
 }
