@@ -10,10 +10,11 @@ class CalculateGCD
 {
     static void Main()
     {
-        Console.Write("Input a: ");
-        long a = UserInput();
-        Console.Write("Input b: ");
-        long b = UserInput();
+        string input = Console.ReadLine();
+        string[] digits = input.Split(' ');
+
+        long a = long.Parse(digits[0]);
+        long b = long.Parse(digits[1]);
         long result = GCD(a, b);
         Console.WriteLine(result);
 
@@ -29,18 +30,6 @@ class CalculateGCD
         {
             return GCD(b, a % b);
         }
-    }
-
-    private static long UserInput()
-    {
-        long input = new long();
-        bool check = long.TryParse(Console.ReadLine(), out input);
-        while (!check)
-        {
-            Console.WriteLine("The input is wrong!");
-            check = long.TryParse(Console.ReadLine(), out input);
-        }
-        return input;
-    }
+    }   
 }
 
