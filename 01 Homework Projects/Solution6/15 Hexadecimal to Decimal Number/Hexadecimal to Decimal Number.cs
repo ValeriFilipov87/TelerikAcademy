@@ -50,7 +50,6 @@ class HexadecimalToDecimalNumber
 
     private static char[] UserInput()
     {
-        Console.Write("Input hexadecimal digit: ");
         string input = Console.ReadLine();
         char[] hexa = new char[input.Length];
         for (int i = 0; i < input.Length; i++)
