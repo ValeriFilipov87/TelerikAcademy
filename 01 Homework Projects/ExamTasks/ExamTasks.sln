@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1Task1248", "Exam1Task1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1Task2NIghtmare", "Exam1Task2NIghtmare\Exam1Task2NIghtmare.csproj", "{31CC83B9-DB34-48EA-A7BA-70B0808E8AE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2Task3Enigmanation", "Exam2Task3Enigmanation\Exam2Task3Enigmanation.csproj", "{F5ED3167-89D6-4FA7-B4C5-A003098010DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1Task3Enigmanation", "Exam2Task3Enigmanation\Exam1Task3Enigmanation.csproj", "{F5ED3167-89D6-4FA7-B4C5-A003098010DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
