@@ -22,6 +22,7 @@ class Program
             Console.Write(new string('.', i));
             Console.WriteLine();
         }
+
         Console.Write(new string('*', 2 * N + 1));
         Console.WriteLine();
 
@@ -36,6 +37,7 @@ class Program
             Console.Write(new string('.', i));
             Console.WriteLine();
         }
+
         Console.Write(new string('.', N / 2 + 1));
         Console.Write(new string('*', N));
         Console.Write(new string('.', N / 2 + 1));
