@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E123C17B-A423-4162-8D72-6EDA49BF2739}</ProjectGuid>
+    <ProjectGuid>{DD4D251E-7FB0-4AC7-87A2-8216FFF87D9D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Exam1Task4KaspichaniaBoats</RootNamespace>
-    <AssemblyName>Exam1Task4KaspichaniaBoats</AssemblyName>
+    <RootNamespace>Exam2Task1369</RootNamespace>
+    <AssemblyName>Exam2Task1369</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exam1Task4KaspichaniaBoats.cs" />
+    <Compile Include="Exam2Task1369.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

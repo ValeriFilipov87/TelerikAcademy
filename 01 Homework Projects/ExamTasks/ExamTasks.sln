@@ -5,13 +5,15 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1Task1248", "Exam1Task1248\Exam1Task1248.csproj", "{3C770D74-F0E8-4148-B638-B6A23474CAC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1Task2NIghtmare", "Exam1Task2NIghtmare\Exam1Task2NIghtmare.csproj", "{31CC83B9-DB34-48EA-A7BA-70B0808E8AE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1Task2Nightmare", "Exam1Task2NIghtmare\Exam1Task2Nightmare.csproj", "{31CC83B9-DB34-48EA-A7BA-70B0808E8AE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1Task3Enigmanation", "Exam2Task3Enigmanation\Exam1Task3Enigmanation.csproj", "{F5ED3167-89D6-4FA7-B4C5-A003098010DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1Task4KaspichaniaBoats", "Exam1Task4KaspichaniaBoats\Exam1Task4KaspichaniaBoats.csproj", "{E123C17B-A423-4162-8D72-6EDA49BF2739}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam1Task5GameOfPage", "ConsoleApplication1\Exam1Task5GameOfPage.csproj", "{7ECB88F1-4DBA-4328-9F19-E36FBA878C5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2Task1369", "Exam2Task1369\Exam2Task1369.csproj", "{DD4D251E-7FB0-4AC7-87A2-8216FFF87D9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7ECB88F1-4DBA-4328-9F19-E36FBA878C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ECB88F1-4DBA-4328-9F19-E36FBA878C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ECB88F1-4DBA-4328-9F19-E36FBA878C5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4D251E-7FB0-4AC7-87A2-8216FFF87D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4D251E-7FB0-4AC7-87A2-8216FFF87D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4D251E-7FB0-4AC7-87A2-8216FFF87D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4D251E-7FB0-4AC7-87A2-8216FFF87D9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
