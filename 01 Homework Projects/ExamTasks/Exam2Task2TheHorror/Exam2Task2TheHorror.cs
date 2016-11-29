@@ -1,23 +1,21 @@
 ﻿using System;
 
-class Program
+class Exam2Task2TheHorror
 {
     static void Main()
     {
         string input = Console.ReadLine();
-
-        int count = 0;
-        int sum = 0;
+        int count = new int();
+        long sum = new long();
 
         for (int i = 0; i < input.Length; i++)
         {
-            if (char.IsDigit(input[i]))
+            if (Char.IsDigit(input[i]))
             {
-                if (i % 2 == 1)
+                if (i % 2 == 0)
                 {
-                    int digit = Convert.ToInt32(input[i]) - '0';
                     count++;
-                    sum += digit;
+                    sum += (input[i]-'0');
                 }
             }
         }
