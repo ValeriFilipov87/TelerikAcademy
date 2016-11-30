@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2Task2TheHorror", "Exam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2Task3XExpression", "Exam2Task3XExpression\Exam2Task3XExpression.csproj", "{80A700DB-3586-406B-A377-71156EAB6CF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam2Task4DiamondTrolls", "Exam2Task4DiamondTrolls\Exam2Task4DiamondTrolls.csproj", "{AA17A2CA-6A8F-4DAB-836D-42725C3BEBFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{80A700DB-3586-406B-A377-71156EAB6CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A700DB-3586-406B-A377-71156EAB6CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A700DB-3586-406B-A377-71156EAB6CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA17A2CA-6A8F-4DAB-836D-42725C3BEBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA17A2CA-6A8F-4DAB-836D-42725C3BEBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA17A2CA-6A8F-4DAB-836D-42725C3BEBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA17A2CA-6A8F-4DAB-836D-42725C3BEBFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
