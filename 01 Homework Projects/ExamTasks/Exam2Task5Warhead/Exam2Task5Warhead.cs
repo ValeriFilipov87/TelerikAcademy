@@ -57,9 +57,9 @@ class Exam2Task5Warhead
         int rowCheck14 = row14;
         int rowCheck15 = row15;
 
-        for (int r = 0; r < 16; r++)
+        for (int r = 1; r < 15; r++)
         {
-            for (int c = 0; c < 16; c++)
+            for (int c = 1; c < 15; c++)
             {
                 switch (r)
                 {
@@ -116,7 +116,6 @@ class Exam2Task5Warhead
                     upperRow ^= 1 << (c + 1);
 
                     middleRow ^= 1 << (c - 1);
-                    middleRow ^= 0 << (c);
                     middleRow ^= 1 << (c + 1);
 
                     lowerRow ^= 1 << (c - 1);
@@ -150,7 +149,6 @@ class Exam2Task5Warhead
                     upperRow ^= 1 << (c + 1);
 
                     middleRow ^= 1 << (c - 1);
-                    middleRow ^= 0 << (c);
                     middleRow ^= 1 << (c + 1);
 
                     lowerRow ^= 1 << (c - 1);
@@ -310,7 +308,6 @@ class Exam2Task5Warhead
                         upperRow ^= 1 << (col + 1);
 
                         middleRow ^= 1 << (col - 1);
-                        middleRow ^= 0 << (col);
                         middleRow ^= 1 << (col + 1);
 
                         lowerRow ^= 1 << (col - 1);
@@ -354,6 +351,7 @@ class Exam2Task5Warhead
                     Console.WriteLine(countRedFigure + countBlueFigure);
                     Console.WriteLine("BOOM");
                     isGameOn = false;
+                    continue;
                 }
             }
         }
