@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam3Task3OnesAndZeros", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam3Task4Eggcelent", "Exam3Task4Eggcelent\Exam3Task4Eggcelent.csproj", "{9CCD7F4D-997A-47B2-94A4-88EAB22B43FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam3Task5Smetalo", "Exam3Task5Smetalo\Exam3Task5Smetalo.csproj", "{A0AA5BD3-3048-49B5-A902-CB21DB3B26AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{9CCD7F4D-997A-47B2-94A4-88EAB22B43FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CCD7F4D-997A-47B2-94A4-88EAB22B43FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CCD7F4D-997A-47B2-94A4-88EAB22B43FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0AA5BD3-3048-49B5-A902-CB21DB3B26AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0AA5BD3-3048-49B5-A902-CB21DB3B26AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0AA5BD3-3048-49B5-A902-CB21DB3B26AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0AA5BD3-3048-49B5-A902-CB21DB3B26AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
