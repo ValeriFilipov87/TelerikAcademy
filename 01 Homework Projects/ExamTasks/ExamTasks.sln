@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam3Task5SmetalotoArrays",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4Task1CoffeeVendingMachine", "Exam4Task1CoffeeVendingMachine\Exam4Task1CoffeeVendingMachine.csproj", "{AE813147-9FE5-42DA-96AA-F0ABC0B82FF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task2DrunkenNumbers", "Exam2Task2DrunkenNumbers\Exam5Task2DrunkenNumbers.csproj", "{212F4411-399E-4A58-9B02-3FECBFA895CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4Task2DrunkenNumbers", "Exam2Task2DrunkenNumbers\Exam4Task2DrunkenNumbers.csproj", "{212F4411-399E-4A58-9B02-3FECBFA895CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
