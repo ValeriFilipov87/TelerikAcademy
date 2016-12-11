@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4Task4Fire", "Exam4Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4Task5NeuronMapping", "Exam4Task4NeuronMapping\Exam4Task5NeuronMapping.csproj", "{CE4E7B56-CE01-4E6C-B3AB-3014D09B88A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task1Garden", "Exam5Task1Garden\Exam5Task1Garden.csproj", "{7632C693-25CB-4112-B19D-52F77E2A3E01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{CE4E7B56-CE01-4E6C-B3AB-3014D09B88A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE4E7B56-CE01-4E6C-B3AB-3014D09B88A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE4E7B56-CE01-4E6C-B3AB-3014D09B88A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7632C693-25CB-4112-B19D-52F77E2A3E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7632C693-25CB-4112-B19D-52F77E2A3E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7632C693-25CB-4112-B19D-52F77E2A3E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7632C693-25CB-4112-B19D-52F77E2A3E01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
