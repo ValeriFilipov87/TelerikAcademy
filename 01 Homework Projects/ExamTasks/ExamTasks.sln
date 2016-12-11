@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4Task3CowsAndBulls", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4Task4Fire", "Exam4Task4Fire\Exam4Task4Fire.csproj", "{F7142791-8564-4580-BD14-C16B21F63242}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam4Task5NeuronMapping", "Exam4Task4NeuronMapping\Exam4Task5NeuronMapping.csproj", "{CE4E7B56-CE01-4E6C-B3AB-3014D09B88A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{F7142791-8564-4580-BD14-C16B21F63242}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7142791-8564-4580-BD14-C16B21F63242}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7142791-8564-4580-BD14-C16B21F63242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4E7B56-CE01-4E6C-B3AB-3014D09B88A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4E7B56-CE01-4E6C-B3AB-3014D09B88A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4E7B56-CE01-4E6C-B3AB-3014D09B88A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4E7B56-CE01-4E6C-B3AB-3014D09B88A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
