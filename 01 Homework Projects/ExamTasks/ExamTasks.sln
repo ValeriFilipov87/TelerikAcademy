@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task1Garden", "Exam5Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task2TheSecretsOfNumbers", "Exam5Task2TheSecretsOfNumbers\Exam5Task2TheSecretsOfNumbers.csproj", "{D7806F93-C0CD-448F-A5F7-4A0175DEED75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task3CardWars", "Exam5Task3CardWars\Exam5Task3CardWars.csproj", "{3141E2A6-393E-4694-8996-80749770067D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{D7806F93-C0CD-448F-A5F7-4A0175DEED75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7806F93-C0CD-448F-A5F7-4A0175DEED75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7806F93-C0CD-448F-A5F7-4A0175DEED75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3141E2A6-393E-4694-8996-80749770067D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3141E2A6-393E-4694-8996-80749770067D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3141E2A6-393E-4694-8996-80749770067D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3141E2A6-393E-4694-8996-80749770067D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
