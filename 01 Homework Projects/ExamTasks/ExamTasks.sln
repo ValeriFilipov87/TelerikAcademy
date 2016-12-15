@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task2TheSecretsOfNumbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task3CardWars", "Exam5Task3CardWars\Exam5Task3CardWars.csproj", "{3141E2A6-393E-4694-8996-80749770067D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task4Tower", "Exam5Task4Tower\Exam5Task4Tower.csproj", "{D403B05A-89B5-44E0-B169-BA55D7373EEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{3141E2A6-393E-4694-8996-80749770067D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3141E2A6-393E-4694-8996-80749770067D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3141E2A6-393E-4694-8996-80749770067D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D403B05A-89B5-44E0-B169-BA55D7373EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D403B05A-89B5-44E0-B169-BA55D7373EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D403B05A-89B5-44E0-B169-BA55D7373EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D403B05A-89B5-44E0-B169-BA55D7373EEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
