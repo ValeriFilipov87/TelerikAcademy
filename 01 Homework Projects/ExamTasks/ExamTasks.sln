@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task3CardWars", "Exam5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task4Tower", "Exam5Task4Tower\Exam5Task4Tower.csproj", "{D403B05A-89B5-44E0-B169-BA55D7373EEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task5Bittris", "Exam5Task5Bittris\Exam5Task5Bittris.csproj", "{E3DE76B1-5D8B-437D-BA43-30EC4CF4D4F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam5Task5BittrisSolution", "Exam5Task5BittrisSolution\Exam5Task5BittrisSolution.csproj", "{A12C04D4-4E4F-45A8-A4F3-C64FE5AEEE83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{D403B05A-89B5-44E0-B169-BA55D7373EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D403B05A-89B5-44E0-B169-BA55D7373EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D403B05A-89B5-44E0-B169-BA55D7373EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DE76B1-5D8B-437D-BA43-30EC4CF4D4F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DE76B1-5D8B-437D-BA43-30EC4CF4D4F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DE76B1-5D8B-437D-BA43-30EC4CF4D4F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DE76B1-5D8B-437D-BA43-30EC4CF4D4F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A12C04D4-4E4F-45A8-A4F3-C64FE5AEEE83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A12C04D4-4E4F-45A8-A4F3-C64FE5AEEE83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A12C04D4-4E4F-45A8-A4F3-C64FE5AEEE83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A12C04D4-4E4F-45A8-A4F3-C64FE5AEEE83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
