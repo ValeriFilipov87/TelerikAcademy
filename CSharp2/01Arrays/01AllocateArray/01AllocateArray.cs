@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01AllocateArray
 {
-    class 01AllocateArray
+    class AllocateArray
     {
         static void Main(string[] args)
         {
