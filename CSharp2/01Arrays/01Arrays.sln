@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03CompareCharArrays", "03Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04MaximalSequence", "04MaximalSequence\04MaximalSequence.csproj", "{8CCA9E83-8B2F-488E-BCF3-276AF61B498F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05Maximal increasing sequence", "05Maximal increasing sequence\05Maximal increasing sequence.csproj", "{B2DE375E-E876-4ED1-8579-6ABC5106D2FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05MaximalIncreasingSequence", "05Maximal increasing sequence\05MaximalIncreasingSequence.csproj", "{B2DE375E-E876-4ED1-8579-6ABC5106D2FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 MaximalKSum", "06 MaximalKSum\06 MaximalKSum.csproj", "{DDE1B7AF-ACA5-4A65-B8A8-886DBE5D979A}"
 EndProject
