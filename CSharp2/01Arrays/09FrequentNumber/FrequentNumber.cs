@@ -34,12 +34,14 @@ namespace _09FrequentNumber
                     otherNegativeDigits[index]++;
                 }
             }
+
             int maxOtherDigit = otherPositiveDigits.Max();
             int frequentDigit = Array.IndexOf(otherPositiveDigits, maxOtherDigit);
 
             int maxNegativeDigit = otherNegativeDigits.Max();
             int frequentNegativeDigit = Array.IndexOf(otherNegativeDigits, maxNegativeDigit);
             frequentNegativeDigit *= -1;
+
             if (maxOtherDigit>=maxNegativeDigit)
             {
                 Console.WriteLine(frequentDigit);
