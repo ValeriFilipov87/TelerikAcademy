@@ -11,6 +11,7 @@ namespace _10FindSumInArray
         static void Main(string[] args)
         {
             int sum = int.Parse(Console.ReadLine());
+
             string input = Console.ReadLine();
             int[] digitsArray = input.Split(',').Select(x => Convert.ToInt32(x)).ToArray();
 
@@ -21,8 +22,7 @@ namespace _10FindSumInArray
 
             for (int i = 0; i < digitsArray.Length; i++)
             {
-                
-                if (currentSum != sum)
+                if (currentSum < sum)
                 {
                     currentSum += digitsArray[i];
                 }
@@ -39,15 +39,13 @@ namespace _10FindSumInArray
                     break;
                 }
             }
-            Console.WriteLine(currentSum);
             for (int i = start; i <= stop; i++)
             {
                 Console.Write(digitsArray[i]);
-                if (i!=stop)
+                if (i != stop)
                 {
                     Console.Write(',');
                 }
-                
             }
             Console.WriteLine();
         }
