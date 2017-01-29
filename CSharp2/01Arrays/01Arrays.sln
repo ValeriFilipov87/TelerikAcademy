@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09FrequentNumber", "09Frequ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10FindSumInArray", "10FindSumInArray\10FindSumInArray.csproj", "{59628105-C6B8-47DF-B38E-2604CE4F3BEB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11BinarySearch", "11BinarySearch\11BinarySearch.csproj", "{3EE292BF-AF97-45DE-B21C-7539ADCC65AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{59628105-C6B8-47DF-B38E-2604CE4F3BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59628105-C6B8-47DF-B38E-2604CE4F3BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59628105-C6B8-47DF-B38E-2604CE4F3BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE292BF-AF97-45DE-B21C-7539ADCC65AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE292BF-AF97-45DE-B21C-7539ADCC65AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE292BF-AF97-45DE-B21C-7539ADCC65AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE292BF-AF97-45DE-B21C-7539ADCC65AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
