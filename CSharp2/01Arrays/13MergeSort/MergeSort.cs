@@ -14,10 +14,10 @@ namespace _13MergeSort
             int[] result = new int[digits.Length];
 
             result = MergeSorting(digits);
-            PrintResul(result);
+            PrintResult(result);
         }
 
-        private static void PrintResul(int[] result)
+        private static void PrintResult(int[] result)
         {
             for (int i = 0; i < result.Length; i++)
             {
@@ -91,7 +91,6 @@ namespace _13MergeSort
                 start = (array.Length / 2);
 
             }
-
             for (int i = 0; i < array.Length / 2; i++)
             {
                 sequence[i] = array[start];
