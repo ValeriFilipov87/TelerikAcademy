@@ -14,46 +14,49 @@ namespace _14QuickSort
 
             int[] result = new int[digits.Length];
 
-            int low = 0;
-            int high = digits.Length;
+            int left = 0;
+            int right = digits.Length - 1;
 
-            result = QuickSortAlg(digits, low, high);
+            result = QuickSortAlg(digits, left, right);
             PrintResult(result);
         }
 
-        private static int[] QuickSortAlg(int[] array, int min, int max)
+        private static int[] QuickSortAlg(int[] array, int left, int right)
         {
-            int pivotLocation = new int();
-            if (min < max)
+            if (left < right)
             {
-                pivotLocation = Partition(array, min, max);
-                QuickSortAlg(array, min, pivotLocation);
-                QuickSortAlg(array, pivotLocation + 1, max);
+                int pivot = array[(left + right) / 2];
+                int pivotLocation = Partition(array, left, right, pivot);
+                QuickSortAlg(array, left, pivotLocation-1);
+                QuickSortAlg(array, pivotLocation, right);
             }
             return array;
         }
 
-        private static int Partition(int[] array, int min, int max)
+        private static int Partition(int[] array, int left, int right, int pivot)
         {
-            int pivot = array[min];
-            int leftwall = min;
-            for (int i = min + 1; i < max; i++)
+
+            while (left <= right)
             {
-                if (array[i] < pivot)
+                while (array[left] < pivot)
                 {
-                    int temp = new int();
-                    temp = array[i];
-                    array[i] = array[leftwall];
-                    array[leftwall] = temp;
-                    leftwall++;
+                    left++;
+                }
+                while (array[right] > pivot)
+                {
+                    right--;
+                }
+                if (left <= right)
+                {
+                    int swap = 0;
+                    swap = array[left];
+                    array[left] = array[right];
+                    array[right] = swap;
+                    left++;
+                    right--;
                 }
             }
-            int swap = new int();
-            swap = pivot;
-            pivot = array[leftwall];
-            array[leftwall] = swap;
-
-            return leftwall;
+            return left;
         }
 
         private static void PrintResult(int[] result)
