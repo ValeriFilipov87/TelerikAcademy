@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+/*Problem 17.* Subset K with sum S
+
+Write a program that reads three integer numbers N, K and S and an array of N elements from the console.
+Find in the array a subset of K elements that have sum S or indicate about its absence.
+*/
 namespace _17SubsetKWithSumS
 {
     class SubsetKWithSumS
@@ -38,10 +41,10 @@ namespace _17SubsetKWithSumS
             List<int> subset = new List<int>();
             bool isFoundSubset = false;
 
-            for (int i = 1; i <= subsetsCount; i++)
+            for (int i = 1; i <= subsetsCount; i++) // go through each sequence
             {
                 subset.Clear();
-                for (int j = 0; j < numbers.Length; j++)
+                for (int j = 0; j < numbers.Length; j++) 
                 {
                     if (((i >> j) & 1) == 1)
                     {
