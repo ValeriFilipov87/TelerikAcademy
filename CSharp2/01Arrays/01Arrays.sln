@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18RemoveElementsFromArray",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19PermutationsOfSet", "19PermutationsOfSet\19PermutationsOfSet.csproj", "{54FBE9D8-59EC-47FD-AC5C-638E8AFA48A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20VariationOfSet", "20VariationOfSet\20VariationOfSet.csproj", "{1E119E67-37DB-44C9-85AE-0ABBA83F2C19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{54FBE9D8-59EC-47FD-AC5C-638E8AFA48A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54FBE9D8-59EC-47FD-AC5C-638E8AFA48A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54FBE9D8-59EC-47FD-AC5C-638E8AFA48A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E119E67-37DB-44C9-85AE-0ABBA83F2C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E119E67-37DB-44C9-85AE-0ABBA83F2C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E119E67-37DB-44C9-85AE-0ABBA83F2C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E119E67-37DB-44C9-85AE-0ABBA83F2C19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
