@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-class Variations
+class Combinations
 {
     static void Main()
     {
@@ -11,7 +11,6 @@ class Variations
         Console.Write("Enter a number K: ");
         int k = int.Parse(Console.ReadLine());
 
-        // Initialize the array with ones 'k' times 
         int[] elem = Enumerable.Repeat(1, k).ToArray();
 
         int c;
@@ -19,7 +18,9 @@ class Variations
         do
         {
             c = 1;
-            PrintElements(elem);
+
+            if (IsElementsInIncreasingOrder(elem))
+                PrintElements(elem);
 
             for (int i = 0; i < k; i++)
             {
@@ -27,8 +28,7 @@ class Variations
 
                 if (elem[i] <= n)
                 {
-                    c = 0;
-                    break;
+                    c = 0; break;
                 }
                 else
                 {
@@ -37,6 +37,16 @@ class Variations
             }
         }
         while (c != 1);
+    }
+
+    static bool IsElementsInIncreasingOrder(int[] arr)
+    {
+        for (int i = 0; i < arr.Length; i++)
+            for (int j = i + 1; j < arr.Length; j++)
+                if (arr[i] <= arr[j])
+                    return false;
+
+        return true;
     }
 
     static void PrintElements(int[] arr)
