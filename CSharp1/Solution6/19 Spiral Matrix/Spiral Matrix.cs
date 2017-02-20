@@ -16,7 +16,7 @@ class SpiralMatrix
         int[,] matrix = new int[m, m];
         int row = 0;
         int col = 0;
-        string direction = "rigth";
+        string direction = "down";
         int maxRot = m * m;
         for (int i = 1; i <= maxRot; i++)
         {

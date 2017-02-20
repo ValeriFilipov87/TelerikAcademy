@@ -20,6 +20,7 @@ namespace ConsoleApplication1
                 case "b": spiral = SolutionB(spiral); PrintSpiral(spiral); break;
                 case "c": spiral = SolutionC(spiral); PrintSpiral(spiral); break;
                 case "d": spiral = SolutionD(spiral); PrintSpiral(spiral); break;
+                case "e": spiral = SolutionTwoD(spiral); PrintSpiral(spiral); break;
             }
         }
 
@@ -204,6 +205,61 @@ namespace ConsoleApplication1
                 }
                 Console.WriteLine();
             }
+        }
+        private static int[,] SolutionTwoD(int[,] array)
+        {
+            int row = 0;
+            int col = 0;
+            string direction = "down";
+
+            for (int i = 1; i <= array.Length; i++)
+            {
+                if (direction == "down" && (row > array.GetLength(0) - 1 || array[row, col] != 0))
+                {
+                    row--;
+                    col++;
+                    direction = "rigth";
+                }
+                if (direction == "rigth" && (col > array.GetLength(1) - 1 || array[row, col] != 0))
+                {
+                    col--;
+                    row--;
+                    direction = "up";
+                }
+                if (direction == "up" && (row < 0 || array[row, col] != 0))
+                {
+                    row++;
+                    col--;
+                    direction = "left";
+                }
+                if (direction == "left" && (col < 0 || array[row, col] != 0))
+                {
+                    row++;
+                    col++;
+                    direction = "down";
+                }
+
+                array[row, col] = i;
+
+                if (direction == "down")
+                {
+                    row++;
+                }
+                if (direction == "rigth")
+                {
+                    col++;
+                }
+                if (direction == "up")
+                {
+                    row--;
+                }
+                if (direction == "left")
+                {
+                    col--;
+                }
+            }
+
+            return array;
         }
     }
 }
