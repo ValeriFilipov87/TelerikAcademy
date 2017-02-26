@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03SequenceInMatrix", "03Seq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04BinarySearch", "04BinarySearch\04BinarySearch.csproj", "{830504E1-C8CB-4D50-A34C-44BE4040E05B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05SortByStringLength", "05SortByStringLength\05SortByStringLength.csproj", "{CCD9CFA5-7702-419F-9820-1DA926BC018D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{830504E1-C8CB-4D50-A34C-44BE4040E05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{830504E1-C8CB-4D50-A34C-44BE4040E05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{830504E1-C8CB-4D50-A34C-44BE4040E05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD9CFA5-7702-419F-9820-1DA926BC018D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD9CFA5-7702-419F-9820-1DA926BC018D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD9CFA5-7702-419F-9820-1DA926BC018D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD9CFA5-7702-419F-9820-1DA926BC018D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
