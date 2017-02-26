@@ -12,7 +12,6 @@ namespace _04BinarySearch
         {
             string input = Console.ReadLine();
             int K = int.Parse(Console.ReadLine());
-            int currentDigit = K;
             string[] inputArray = (input.Split(' ').ToArray());
             int[] array = new int[inputArray.Length];
             for (int i = 0; i < inputArray.Length; i++)
@@ -36,6 +35,7 @@ namespace _04BinarySearch
                 }
                 else
                 {
+                    int currentDigit = K;
                     while (Array.BinarySearch(array, currentDigit) < 0)
                     {
                         currentDigit--;
