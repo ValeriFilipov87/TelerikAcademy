@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04BinarySearch", "04BinaryS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05SortByStringLength", "05SortByStringLength\05SortByStringLength.csproj", "{CCD9CFA5-7702-419F-9820-1DA926BC018D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07LargestAreaInMatrix", "07LargestAreaInMatrix\07LargestAreaInMatrix.csproj", "{6AA1056D-82FF-46AC-B0E7-F9E5A5F0FC89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CCD9CFA5-7702-419F-9820-1DA926BC018D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCD9CFA5-7702-419F-9820-1DA926BC018D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCD9CFA5-7702-419F-9820-1DA926BC018D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA1056D-82FF-46AC-B0E7-F9E5A5F0FC89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA1056D-82FF-46AC-B0E7-F9E5A5F0FC89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA1056D-82FF-46AC-B0E7-F9E5A5F0FC89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA1056D-82FF-46AC-B0E7-F9E5A5F0FC89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
