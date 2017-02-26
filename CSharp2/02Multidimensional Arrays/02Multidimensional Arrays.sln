@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02MaximalSum", "02MaximalSu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03SequenceInMatrix", "03SequenceInMatrix\03SequenceInMatrix.csproj", "{7C7E2226-8880-46E5-9583-6D143BC27348}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04BinarySearch", "04BinarySearch\04BinarySearch.csproj", "{830504E1-C8CB-4D50-A34C-44BE4040E05B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7C7E2226-8880-46E5-9583-6D143BC27348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C7E2226-8880-46E5-9583-6D143BC27348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C7E2226-8880-46E5-9583-6D143BC27348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830504E1-C8CB-4D50-A34C-44BE4040E05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830504E1-C8CB-4D50-A34C-44BE4040E05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830504E1-C8CB-4D50-A34C-44BE4040E05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830504E1-C8CB-4D50-A34C-44BE4040E05B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
