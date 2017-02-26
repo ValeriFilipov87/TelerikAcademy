@@ -28,11 +28,20 @@ namespace _04BinarySearch
             }
             else
             {
-                while (Array.BinarySearch(array, currentDigit) < 0)
+                int min = array.Min();
+                if (min > K)
                 {
-                    currentDigit--;
+                    Console.WriteLine("No such digit in the sequence");
+                    return;
                 }
-                result = Array.BinarySearch(array, currentDigit);
+                else
+                {
+                    while (Array.BinarySearch(array, currentDigit) < 0)
+                    {
+                        currentDigit--;
+                        result = Array.BinarySearch(array, currentDigit);
+                    }
+                }
                 Console.WriteLine(result);
                 Console.WriteLine(array[result]);
             }
