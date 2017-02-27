@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Say Hello", "01 Say Hello\01 Say Hello.csproj", "{D4D33D55-29EB-44CD-9E18-25853D6322E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Get Largest Number", "02 Get Largest Number\02 Get Largest Number.csproj", "{372C8023-2D40-4E70-817F-0BC1D2C48409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D4D33D55-29EB-44CD-9E18-25853D6322E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4D33D55-29EB-44CD-9E18-25853D6322E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4D33D55-29EB-44CD-9E18-25853D6322E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{372C8023-2D40-4E70-817F-0BC1D2C48409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372C8023-2D40-4E70-817F-0BC1D2C48409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372C8023-2D40-4E70-817F-0BC1D2C48409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372C8023-2D40-4E70-817F-0BC1D2C48409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
