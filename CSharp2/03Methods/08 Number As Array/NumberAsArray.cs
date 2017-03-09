@@ -42,43 +42,37 @@ namespace _08_Number_As_Array
                 }
                 result[i] = currentSum;
             }
+            result = AuxiliaryFunction(result, firstDigit, secondDigit, addition, arrayLength);           
+            return result;
+        }
 
-            if (arrayLength[0] > arrayLength[1])
+        private static int[] AuxiliaryFunction(int[] result, int[] firstDigit, int[] secondDigit, int addition, int[] arrayLength)
+        {
+            int currentSum = new int();
+            for (int i = arrayLength.Min(); i < arrayLength.Max(); i++)
             {
-                for (int i = arrayLength.Min(); i < arrayLength.Max(); i++)
+                currentSum = 0;
+                if (arrayLength[0] > arrayLength[1])
                 {
-                    currentSum = 0;
                     currentSum = firstDigit[i] + addition;
-                    addition = 0;
-                    if (currentSum>9)
-                    {
-                        addition = 1;
-                        currentSum %= 10;
-                    }
-                    result[i] = currentSum;
                 }
-            }
-            if (arrayLength[0] < arrayLength[1])
-            {
-                for (int i = arrayLength.Min(); i < arrayLength.Max(); i++)
+                else
                 {
-                    currentSum = 0;
                     currentSum = secondDigit[i] + addition;
-                    addition = 0;
-                    if (currentSum > 9)
-                    {
-                        addition = 1;
-                        currentSum %= 10;
-                    }
-                    result[i] = currentSum;
+                }                
+                addition = 0;
+                if (currentSum > 9)
+                {
+                    addition = 1;
+                    currentSum %= 10;
                 }
+                result[i] = currentSum;
             }
             if (addition == 1)
             {
                 Array.Resize(ref result, result.Length + 1);
                 result[result.Length - 1] = 1;
             }
-
             return result;
         }
 
