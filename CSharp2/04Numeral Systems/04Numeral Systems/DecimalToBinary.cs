@@ -10,9 +10,8 @@ namespace _04Numeral_Systems
     class DecimalToBinary
     {
         static void Main(string[] args)
-        {
-            string userInput = Console.ReadLine();
-            BigInteger digit = BigInteger.Parse(userInput);
+        {            
+            BigInteger digit = BigInteger.Parse(Console.ReadLine());
             string result = DecimalToBinaryConvert(digit);            
             Console.WriteLine(result);
         }
