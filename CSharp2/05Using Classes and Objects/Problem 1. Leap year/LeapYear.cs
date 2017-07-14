@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Problem_1.Leap_year
 {
@@ -13,7 +10,14 @@ namespace Problem_1.Leap_year
             int inputYear = int.Parse(Console.ReadLine());
             DateTime date = new DateTime(inputYear,1,1);
             bool IsLeapYear = DateTime.IsLeapYear(date.Year);
-            Console.WriteLine(IsLeapYear);
+            if (IsLeapYear)
+            {
+                Console.WriteLine("Leap");
+            }
+            else
+            {
+                Console.WriteLine("Common");
+            }
         }
     }
 }
