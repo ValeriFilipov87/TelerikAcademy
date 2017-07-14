@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2. Random numbers",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3. Day of week", "Problem 3. Day of week\Problem 3. Day of week.csproj", "{E0CAF904-00FE-4197-99F7-39DFC285F9F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4. Triangle surface", "Problem 4. Triangle surface\Problem 4. Triangle surface.csproj", "{B1A312F9-A9B1-4515-8C9E-E6A0EF5B5E29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{E0CAF904-00FE-4197-99F7-39DFC285F9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0CAF904-00FE-4197-99F7-39DFC285F9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0CAF904-00FE-4197-99F7-39DFC285F9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A312F9-A9B1-4515-8C9E-E6A0EF5B5E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A312F9-A9B1-4515-8C9E-E6A0EF5B5E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A312F9-A9B1-4515-8C9E-E6A0EF5B5E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A312F9-A9B1-4515-8C9E-E6A0EF5B5E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
