@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33A31535-79B4-4EAE-BC9A-EB5BEE0693CD}</ProjectGuid>
+    <ProjectGuid>{6FC755E2-58C1-479A-9618-D4D0CB91E2FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Problem_5.Workdays</RootNamespace>
-    <AssemblyName>Problem_5.Workdays</AssemblyName>
+    <RootNamespace>Problem_6.Sum_integers</RootNamespace>
+    <AssemblyName>Problem_6.Sum_integers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Workdays.cs" />
+    <Compile Include="SumIntegers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

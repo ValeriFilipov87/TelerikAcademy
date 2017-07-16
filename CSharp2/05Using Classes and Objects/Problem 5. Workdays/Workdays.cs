@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem_5.Workdays
 {
-    class Program
+    class Workdays
     {
         static void Main(string[] args)
         {
