@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3. Correct brackets
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 4. Sub-string in text", "Problem 4. Sub-string in text\Problem 4. Sub-string in text.csproj", "{CE10C5B1-8A82-4F39-A4DF-FA2ED678BFBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5. Parse tags", "Problem 5. Parse tags\Problem 5. Parse tags.csproj", "{81A65A71-7D95-4623-B28D-C22327703932}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CE10C5B1-8A82-4F39-A4DF-FA2ED678BFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE10C5B1-8A82-4F39-A4DF-FA2ED678BFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE10C5B1-8A82-4F39-A4DF-FA2ED678BFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A65A71-7D95-4623-B28D-C22327703932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A65A71-7D95-4623-B28D-C22327703932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A65A71-7D95-4623-B28D-C22327703932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A65A71-7D95-4623-B28D-C22327703932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
