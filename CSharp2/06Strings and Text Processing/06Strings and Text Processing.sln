@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 2. Reverse string", "Problem 2. Reverse string\Problem 2. Reverse string.csproj", "{A235056E-0378-4A20-8DAF-3D78E88C8D41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 3. Correct brackets", "03. Correct brackets\Problem 3. Correct brackets.csproj", "{B79CD3FB-5B88-4A68-85A3-D8D191CCF5B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A235056E-0378-4A20-8DAF-3D78E88C8D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A235056E-0378-4A20-8DAF-3D78E88C8D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A235056E-0378-4A20-8DAF-3D78E88C8D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79CD3FB-5B88-4A68-85A3-D8D191CCF5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79CD3FB-5B88-4A68-85A3-D8D191CCF5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79CD3FB-5B88-4A68-85A3-D8D191CCF5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79CD3FB-5B88-4A68-85A3-D8D191CCF5B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
