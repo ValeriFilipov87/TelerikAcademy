@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 5. Parse tags", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 6. String length", "Problem 6. String length\Problem 6. String length.csproj", "{4FCD2D39-43E1-4F3B-9BC6-B7C16DA7F486}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 7. Encode Decode", "Problem 7. Encode Decode\Problem 7. Encode Decode.csproj", "{E9F6AF47-D69F-485F-815A-74EFD86038EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4FCD2D39-43E1-4F3B-9BC6-B7C16DA7F486}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FCD2D39-43E1-4F3B-9BC6-B7C16DA7F486}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FCD2D39-43E1-4F3B-9BC6-B7C16DA7F486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9F6AF47-D69F-485F-815A-74EFD86038EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9F6AF47-D69F-485F-815A-74EFD86038EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9F6AF47-D69F-485F-815A-74EFD86038EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9F6AF47-D69F-485F-815A-74EFD86038EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
