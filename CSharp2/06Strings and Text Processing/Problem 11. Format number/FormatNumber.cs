@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Problem_11.Format_number
 {
-    class Program
+    class FormatNumber
     {
         static void Main(string[] args)
         {
