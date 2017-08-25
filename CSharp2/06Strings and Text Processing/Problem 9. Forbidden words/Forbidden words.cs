@@ -43,6 +43,7 @@ namespace Problem_9.Forbidden_words
                     }
                 }
             }
+
             int currentPosition = 0;
 
             for (int i = 0; i < words.Length; i++)
