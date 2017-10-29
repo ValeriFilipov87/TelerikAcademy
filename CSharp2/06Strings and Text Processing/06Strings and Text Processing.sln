@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 13. Reverse sentenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 14. Word dictionary", "Problem 14. Word dictionary\Problem 14. Word dictionary.csproj", "{64623606-7D54-4DD5-950F-3694132F8755}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 15. Replace tags", "Problem 15. Replace tags\Problem 15. Replace tags.csproj", "{D4FBD0A4-41F0-46A4-A01D-59CFEED2622C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 15_1. Replace tags", "temp\Problem 15_1. Replace tags.csproj", "{0776661B-90E4-44D8-8EB0-64D2AB51E89B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{64623606-7D54-4DD5-950F-3694132F8755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64623606-7D54-4DD5-950F-3694132F8755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64623606-7D54-4DD5-950F-3694132F8755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FBD0A4-41F0-46A4-A01D-59CFEED2622C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FBD0A4-41F0-46A4-A01D-59CFEED2622C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FBD0A4-41F0-46A4-A01D-59CFEED2622C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FBD0A4-41F0-46A4-A01D-59CFEED2622C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0776661B-90E4-44D8-8EB0-64D2AB51E89B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0776661B-90E4-44D8-8EB0-64D2AB51E89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0776661B-90E4-44D8-8EB0-64D2AB51E89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0776661B-90E4-44D8-8EB0-64D2AB51E89B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
