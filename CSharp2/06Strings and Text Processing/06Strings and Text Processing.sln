@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 15. Replace tags", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 15_1. Replace tags", "temp\Problem 15_1. Replace tags.csproj", "{0776661B-90E4-44D8-8EB0-64D2AB51E89B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem 16. Date difference", "Problem 16. Date difference\Problem 16. Date difference.csproj", "{F561A834-BBAF-48FB-95F8-1DE969BB1B50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{0776661B-90E4-44D8-8EB0-64D2AB51E89B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0776661B-90E4-44D8-8EB0-64D2AB51E89B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0776661B-90E4-44D8-8EB0-64D2AB51E89B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F561A834-BBAF-48FB-95F8-1DE969BB1B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F561A834-BBAF-48FB-95F8-1DE969BB1B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F561A834-BBAF-48FB-95F8-1DE969BB1B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F561A834-BBAF-48FB-95F8-1DE969BB1B50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
