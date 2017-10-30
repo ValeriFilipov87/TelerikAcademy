@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F02C77A8-4B36-481E-8F27-28B492C2A2AE}</ProjectGuid>
+    <ProjectGuid>{D850D3F0-7AAB-4801-93BE-DD4BBAE5F5B8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Problem_23.Series_of_letters</RootNamespace>
-    <AssemblyName>Problem_23.Series_of_letters</AssemblyName>
+    <RootNamespace>Problem_1.Square_root</RootNamespace>
+    <AssemblyName>Problem_1.Square_root</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Series of letters.cs" />
+    <Compile Include="Square root.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
